@@ -116,12 +116,12 @@ The chain rule says that if you have two functions, <i>f</i> and <i>g</i>
 24
 00:01:37,000 --> 00:01:40,000
 Here’s the rule a little more formally using D,
-这是形式使用D的规则，
+使用函数 D 更正式地得到连式法则，
 
 25
 00:01:40,000 --> 00:01:44,000
 and you get back the answer that you expected.
-并且你可以得到希望的答案
+并且你得到了期望的答案
 
 26
 00:01:44,000 --> 00:01:47,000
@@ -136,7 +136,7 @@ a rule for derivatives like this one,
 28
 00:01:49,000 --> 00:01:53,000
 then you have a rule for integration, so now that says that
-那你有有了一个积分法 换句话说
+那你有有了一个积分法则 换句话说
 
 29
 00:01:53,000 --> 00:02:00,000
@@ -320,8 +320,8 @@ so <i>u</i> is <i>x</i>^3 + 3.
 
 65
 00:04:36,000 --> 00:04:42,000
-So <i>du</i> = 3<i>x</i>^2<i>dx</i> because that’s the derivative of 3<i>x</i>^3 + 3,
-所以  {\i1}du{\i} = 3{\i1}x{\i}^2{\i1}dx{\i} 因为它是 3{\i1}x{\i}^3 + 3 的导数
+So <i>du</i> = 3<i>x</i>^2<i>dx</i> because that’s the derivative of <i>x</i>^3 + 3,
+所以  {\i1}du{\i} = 3{\i1}x{\i}^2{\i1}dx{\i} 因为它是 {\i1}x{\i}^3 + 3 的导数
 
 66
 00:04:42,000 --> 00:04:45,000
@@ -336,12 +336,12 @@ so we need a small adjustment.
 68
 00:04:47,000 --> 00:04:50,000
 We’ll add to this 2/3 * 3, so you have that
-改写为 2/3 * 3，就有
+改写为 2/3 * 3，就
 
 69
 00:04:50,000 --> 00:04:55,000
 the integral is 2/3√<i>u</i> with respect to <i>u</i>.
-这个积分是 2/3√{\i1}u{\i} 里面带着 {\i1}u{\i}
+是 2/3√{\i1}u{\i} 对于 {\i1}u{\i} 求积分
 
 70
 00:04:55,000 --> 00:04:58,000
@@ -366,7 +366,7 @@ Let’s now go on to a slightly harder example
 74
 00:05:11,000 --> 00:05:15,000
 where you have a kind of rational algebraic function.
-是这种根式型函数
+是这种有理代数函数
 
 75
 00:05:16,000 --> 00:05:19,000
@@ -401,12 +401,12 @@ You plug in the expression for <i>u</i> as 5 – 5<i>x</i>^2,
 81
 00:05:42,000 --> 00:05:45,000
 and of course integrate will give you back
-当然 Integrate 也能给你积出来
+当然 Integrate 也能计算出
 
 82
 00:05:45,000 --> 00:05:47,000
 just the same answer in this case.
-答案一样
+一样的答案
 
 83
 00:05:49,000 --> 00:05:56,000
@@ -436,12 +436,12 @@ Now another problem: you need to integrate the <i>x</i>^3 carefully
 88
 00:06:11,000 --> 00:06:17,000
 as the –2<i>x</i> bit from here and the part that’s left over,
-从这里的 –2{\i1}x{\i} 到剩下的部分
+把它作为这里的 –2{\i1}x{\i} 和剩下的部分
 
 89
 00:06:17,000 --> 00:06:20,000
 which is <i>x</i>^2, but <i>x</i>^2 is just 3 – <i>u</i>,
-是 {\i1}x{\i}^2，但是 {\i1}x{\i}^2 就是 3 – {\i1}u{\i}
+即 {\i1}x{\i}^2，但是 {\i1}x{\i}^2 就是 3 – {\i1}u{\i}
 
 90
 00:06:20,000 --> 00:06:22,000
@@ -521,17 +521,17 @@ First of all, what you could do is
 105
 00:07:11,000 --> 00:07:15,000
 you could work with the expression involving <i>x</i>, the <i>x</i> answer,
-你可以用含  {\i1}x{\i} 的表达式 带 {\i1}x{\i} 的答案
+你可以用含  {\i1}x{\i} 的表达式 即 {\i1}xans{\i} 来计算
 
 106
 00:07:15,000 --> 00:07:17,000
 and plug in the upper and lower limits.
-然后加上限和下限
+然后代入积分上限和下限
 
 107
 00:07:17,000 --> 00:07:19,000
 Let’s say you want to go from 0 to 1.
-比如我们想从 0 到 1
+比如我们想从 0 积到 1
 
 108
 00:07:19,000 --> 00:07:25,000
@@ -601,7 +601,7 @@ The point is that when you have a definite integral,
 121
 00:08:10,000 --> 00:08:15,000
 then you could either work in the <i>u</i> picture or the <i>x</i> picture,
-你可以用 {\i1}u{\i} 的图 或者是 {\i1}x{\i} 的图
+你可以用 {\i1}u{\i} 做积分变量 或者是 {\i1}x{\i} 做积分变量
 
 122
 00:08:15,000 --> 00:08:18,000
@@ -611,7 +611,7 @@ and they are both convenient in some ways.
 123
 00:08:18,000 --> 00:08:20,000
 The <i>u</i> answer tends to be simpler,
-{\i1}u{\i} 答案往往更简单
+{\i1}u{\i} 的答案往往更简单
 
 124
 00:08:20,000 --> 00:08:22,000
@@ -711,7 +711,7 @@ to compute the area between two curves.
 143
 00:09:24,000 --> 00:09:26,000
 But before doing that, do review the lesson.
-但是在此之前 好好复习
+但是在此之前 一定好好复习课程
 
 144
 00:09:26,000 --> 00:09:29,000
@@ -727,4 +727,6 @@ again and again, and you must have some practice with applying it.
 00:09:33,000 --> 00:09:35,000
 I’ll stop over here. Thank you very much.
 本节课到此为止，再见
-翻译：兰州大学 周怀尚
+
+(翻译：周怀尚 兰州大学) 
+(校对：秦晋 北京师范大学)
