@@ -11,7 +11,7 @@ Our topic for today is continuity. Let’s begin with a brief overview of the id
 3
 00:00:14,000 --> 00:00:21,000
 Begin by recalling if you have a polynomial like this one over here, then its limit at a point
-首先回想一下对于一个多项式 它在某一点的极限就是
+首先回想一下对于一个多项式 他在某一点的极限就是
 
 4
 00:00:21,000 --> 00:00:26,000
@@ -36,7 +36,7 @@ at any point is just the value of those functions at that point, and such functi
 8
 00:00:50,000 --> 00:00:58,000
 A continuous function is one for which the limit at a point and the function value agree.
-连续函数是在其一点的极限与其函数值一致的函数
+连续函数是任意一点的极限与其函数值一致的函数
 
 9
 00:00:58,000 --> 00:01:05,000
@@ -121,7 +121,7 @@ wherever they are defined. Here’s a polynomial <i>f</i>[<i>x</i>] and a ration
 25
 00:02:49,000 --> 00:02:57,000
 where the denominator is 0, so it’s not defined. Here’s a plot of <i>f</i>[<i>x</i>], nice and continuous,
-这是一个 <i>f</i>[ <i>x ]</i> 的图像 很不错而且连续
+此处分母为 0 所以函数未定义 这是一个 <i>f</i>[ <i>x ]</i> 的图像 很不错而且连续 
 
 26
 00:02:57,000 --> 00:03:04,000
@@ -237,12 +237,12 @@ Let’s see that for the floor function. If you try and find the limit from the 
 00:05:25,000 --> 00:05:30,000
 from above for the floor function at 0, then it’s okay. You get back True.
 设置 Direction 属性为 FromAbove，那么就可以了。你得了到正确结果
-这句不对啊。。。
+设置 Direction 属性为 FromAbove 那么就可以了 你得了到正确结果
 
 49
 00:05:30,000 --> 00:05:40,000
 But if you try and find it from the left, it is not okay. The plot clearly says that we have issues at
-但是，如果您尝试从左侧求极限 那就不好了 该图清楚地表明
+但是 如果您尝试从左侧求极限 那就不行了 该图清楚地表明
 
 50
 00:05:40,000 --> 00:05:44,000
@@ -277,7 +277,7 @@ namely, when <i>x</i> is non-negative. But at −1, it’s got an imaginary valu
 56
 00:06:15,000 --> 00:06:21,000
 so one cannot really talk about continuity at that point. Here’s a graph,
-因此我们不谈论在这一点的连续性 这是一张图
+因此我们不谈论在这一点的连续性 这是图
 
 57
 00:06:21,000 --> 00:06:28,000
@@ -592,7 +592,7 @@ That’s where calculus really becomes useful in a very profound way. Next lesso
 119
 00:13:11,000 --> 00:13:17,000
 we start looking deeper into calculus, but before doing that, do review today’s lesson,
-我们开始更深入地研究微积分 但在进行此之前 请认真复习今天的课程
+我们开始更深入地研究微积分 但在此之前 请认真复习今天的课程
 
 120
 00:13:17,000 --> 00:13:23,000
@@ -602,7 +602,4 @@ try and solve the exercises and be ready for the next time. It was great to pres
 121
 00:13:23,000 --> 00:13:24,000
 Thank you very much.
-再见
-
-(翻译: 秦晋 北京师范大学)
-(校对: 周怀尚 兰州大学)
+再见 (翻译: 秦晋 北京师范大学 校对: 周怀尚 兰州大学) 
