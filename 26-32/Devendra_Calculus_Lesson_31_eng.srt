@@ -1,7 +1,7 @@
 1
 00:00:00,000 --> 00:00:06,000
 Hello, and welcome to Lesson 31 of this introduction to calculus with Wolfram U.
-大家好，这里是 Wolfram U的微积分入门，第31课
+大家好 这里是 Wolfram U的微积分入门 第31课
 
 2
 00:00:06,000 --> 00:00:12,000
@@ -46,7 +46,7 @@ You also have a function called Mean in the Wolfram Language
 10
 00:00:31,000 --> 00:00:33,000
 which does just the same thing for you,
-做的是一件事
+做的是同一件事
 
 11
 00:00:33,000 --> 00:00:35,000
@@ -296,12 +296,12 @@ It’s very deep and shows you how powerful calculus is.
 60
 00:03:22,000 --> 00:03:24,000
 We’re able to reduce the area under a curve
-我们能够分解曲线下的面积
+我们能够简化曲线下的面积
 
 61
 00:03:24,000 --> 00:03:26,000
 to the area of a rectangle,
-移到矩形区域
+为矩形的面积
 
 62
 00:03:26,000 --> 00:03:30,000
@@ -316,17 +316,17 @@ Okay. As an application, here’s a function,
 64
 00:03:35,000 --> 00:03:39,000
 and you want to find a value in the interval –2 to 3
-要找一个在区域 -2 到 3 之间的值
+要找在区间 -2 到 3 之间的一点
 
 65
 00:03:39,000 --> 00:03:42,000
 such that the function value is equal to
-使得这个函数的均值等于
+使得该点的函数值等于
 
 66
 00:03:42,000 --> 00:03:44,000
 the average value over that interval.
-他在这个区域上的均值
+函数在这个区间上的均值
 
 67
 00:03:44,000 --> 00:03:47,000
@@ -396,7 +396,7 @@ You try and work out the average value, and then work out
 80
 00:04:27,000 --> 00:04:31,000
 the point at which you want to check whether
-这些点 你要检查是否
+一些点 在这些点你想检查是否
 
 81
 00:04:31,000 --> 00:04:35,000
@@ -436,7 +436,7 @@ You plot the temperate from 1pm to 3am,
 88
 00:04:56,000 --> 00:05:00,000
 and the question is, is there a time at which the temperature
-问题是 是否有有这么个时间当时的温度
+问题是 是否有有这么个时间 当时的温度
 
 89
 00:05:00,000 --> 00:05:03,000
@@ -506,7 +506,7 @@ the average value is attained at two different points,
 102
 00:05:46,000 --> 00:05:52,000
 so the average velocity is attained twice in the interval.
-所以平均速度能取到两次在区域内
+所以平均速度能取到两次在区间内
 
 103
 00:05:52,000 --> 00:05:55,000
@@ -551,7 +551,8 @@ then it takes on its average value at least once—
 111
 00:06:19,000 --> 00:06:23,000
 could be more than once, but at least once—in the interval.
-在区间内可能不止取到一次 但是至少一次
+在区间内可能取到不止一次 但是至少一次
+
 112
 00:06:23,000 --> 00:06:26,000
 Of course once you have this very powerful theorem,
@@ -560,7 +561,7 @@ Of course once you have this very powerful theorem,
 113
 00:06:26,000 --> 00:06:29,000
 you could apply it to temperatures or velocities
-你可以应用到温度和速度上
+你可以应用到温度或速度上
 
 114
 00:06:29,000 --> 00:06:33,000
@@ -590,7 +591,7 @@ In the next lesson we’ll talk about approximate values of integrals,
 119
 00:06:48,000 --> 00:06:51,000
 but for now, do review this lesson,
-但现在 请复习本课中
+但现在 请务必复习本课中
 
 120
 00:06:51,000 --> 00:06:53,000
@@ -605,6 +606,4 @@ and I’ll see you next time.
 122
 00:06:56,000 --> 00:06:58,000
 Thank you very much. I’ll stop over here.
-本节课到此为止，再见
-翻译：兰州大学 周怀尚
-
+本节课到此为止，再见(翻译：周怀尚 兰州大学 校对：秦晋 北京师范大学)
