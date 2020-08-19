@@ -181,7 +181,7 @@ but what you might want to do is to work out
 37
 00:02:13,000 --> 00:02:17,000
 the volumes of even more general solids.
-更多的一般的固体的体积
+更多的一般的立体的体积
 
 38
 00:02:17,000 --> 00:02:19,000
