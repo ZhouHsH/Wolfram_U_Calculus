@@ -1,227 +1,226 @@
 1
 00:00:00,000 --> 00:00:05,000
 Hello, and welcome to Lesson 8 of this introduction to calculus with Wolfram U.
-您好，欢迎来到Wolfram U的微积分入门课程第8课。
+你好 欢迎来到 Wolfram U 的微积分入门课程第 8 课
 
 2
 00:00:05,000 --> 00:00:10,000
 Our topic for today is the derivative as a function.
-今天我们的主题是作为函数的导数。
+今天我们的主题是作为函数的导数
 
 3
 00:00:11,000 --> 00:00:17,000
 Let’s begin with a brief overview of today’s lesson. In Lesson 7, you learned about
-让我们从今天课程的简要概述开始。
+让我们从今天课程的简要概述开始
 
 4
 00:00:17,000 --> 00:00:23,000
 finding the derivatives at particular points for a function. Now the fact is that
-在第7课中，您学习了如何在函数的特定点处计算导数。 现在的事实是
+在第 7 课中 你学习了如何计算在特定点处的函数的导数 现在实际上
 
 5
 00:00:23,000 --> 00:00:29,000
 you can go beyond that and the derivative itself can be regarded as a function.
-您可以超越此范围，并将导数本身视为函数。
+可以超越此范围 将导数本身视为函数
 
 6
 00:00:29,000 --> 00:00:35,000
 Starting with a function, you can find the derivative, and then that gives you another function.
-从一个函数开始，您可以计算导数，然后再给您另一个函数。
+从一个函数开始 你可以计算他的导数 然后再给你另一个函数
 
 7
 00:00:35,000 --> 00:00:41,000
 The way to do that in the Wolfram Language is to use to the function D. Let’s say you have
-在Wolfram语言中执行此操作的方法是使用函数 D。假设您在此处
+在 Wolfram 语言中执行此操作的方法是使用函数 D 假设在这里
 
 8
 00:00:41,000 --> 00:00:46,000
 a function <i>f</i>[<i>x</i>] like over here. You can work out the derivative using D, and you get back
-有函数 <i>f</i>[<i>x</i>]。您可以使用 D 求出导数，然后返回
+有函数 <i>f</i>[<i>x</i>] 你可以使用 D 求出导数 然后返回
 
 9
 00:00:46,000 --> 00:00:55,000
 another function. Now you can plot the function and the derivative on the same plot,
-另一个函数。现在，您可以在同一图上绘制函数和导数，
+另一个函数 现在 你可以在同一图上绘制函数和导数
 
 10
 00:00:55,000 --> 00:01:03,000
 and you get back this picture of the function in blue and its derivative in orange.
-蓝色为函数，橙色为它的导数。
+蓝色是函数 橙色为它的导数
 
 11
 00:01:03,000 --> 00:01:09,000
 The point over here is that the derivative is a function just like the earlier one,
-此处的要点是，导函数就像之前遇到过的函数一样
+此处的重点是 导函数就像之前遇到过的函数一样
 
 12
 00:01:09,000 --> 00:01:14,000
 and you can keep on doing the same process, and that’s the plan for today, to talk about
-，您可以对导函数做与普通函数相同的事情，这就是今天要讨论的
+你可以对导函数做与普通函数相同的事情 这就是今天要讨论的
 
 13
 00:01:14,000 --> 00:01:17,000
 derivatives as functions and higher derivatives.
-作为函数的导数和高阶导数。
+作为函数的导数和高阶导数
 
 14
 00:01:17,000 --> 00:01:23,000
 Okay. A simple example. Let’s say I ask you to find the derivative of <i>x</i>^3 + <i>x</i>.
-好的。 一个简单的例子。 假设我要您计算 <i>x</i>^3 + <i>x</i> 的导数。
+好 一个简单的例子 假设我要你计算 <i>x</i>^3 + <i>x</i> 的导数
 
 15
 00:01:25,000 --> 00:01:34,000
 You can work out the derivatives in D—that’s 3<i>x</i>^2 + 1—and then you can also use <i>f</i>'[<i>x</i>].
-您可以在函数 D 中计算导数为 (3<i>x</i>^2 +1)，还可以使用 <i>f</i>'[<i>x</i>] 的写法。
+你可以在函数 D 中计算导数为 (3<i>x</i>^2 +1) 还可以使用 <i>f</i>'[<i>x</i>] 的写法 
 
 16
 00:01:34,000 --> 00:01:39,000
 that’s another way to do the same thing. You can plot the function derivative
-这是做同样事情的另一种方式。
+这是另一种方式做的事同样的事情 你可以绘制函数的导数
 
 17
 00:01:39,000 --> 00:01:46,000
 and you get back the result, which is the plot for both these functions. Now the difficulty is that
-您可以绘制函数导数，然后返回结果，这是这两个函数的图。现在的困难是
+然后返回结果 这是这两个函数的图 现在的困难是
 
 18
 00:01:46,000 --> 00:01:51,000
 there are many ways to write derivatives. Let’s talk a little bit about derivative notation.
-有很多写导数的方法。让我们谈谈导数符号。
+有很多写导数的方法 让我们谈谈导数符号 
 
 19
 00:01:51,000 --> 00:02:00,000
 Some people prefer to write <i>f</i>[<i>x</i>] for the function then <i>f</i>'[<i>x</i>] for the derivative. Others prefer D.
-有些人更喜欢将函数编写为 <i>f</i>[<i>x</i>]，导数编写为 <i>f</i>'[<i>x</i>]。 其他人更喜欢 D 的写法。
+有些人更喜欢将函数编写为 <i>f</i>[<i>x</i>] 导数编写为 <i>f</i>'[<i>x</i>]  其他人更喜欢 D 的写法 
 
 20
 00:02:00,000 --> 00:02:08,000
 Some prefer <i>y</i>’, some use <i>dy</i>/<i>dx</i>, some use <i>df</i>/<i>dx</i>, et cetera. In fact, mathematicians like
-有些人喜欢 <i>y</i>'，有些人使用 <i>dy</i>/<i>dx</i>，有些人使用 <i>df</i>/<i>dx</i>
+有些人喜欢 <i>y</i>' 有些人使用 <i>dy</i>/<i>dx</i> 有些人使用 <i>df</i>/<i>dx</i> 等等 实际上 
 
 21
 00:02:08,000 --> 00:02:15,000
 to think of D and <i>d</i>/<i>dx</i> as being as being differentiation operators which work on functions
-，等等。 实际上，数学家喜欢将 D 和 <i>d</i>/<i>dx</i> 视为是处理函数的微分算子。
+数学家喜欢将 D 和 <i>d</i>/<i>dx</i> 视为是处理函数的微分算子 
 
 22
 00:02:15,000 --> 00:02:22,000
 and give you their derivatives. The whole process of calculating derivatives is called differentiation.
-微分算子会给出函数的导数 计算导数的整个过程称为微分。
+微分算子会给出函数的导数 计算导数的整个过程称为微分 
 
 23
 00:02:22,000 --> 00:02:27,000
 There is a lot of terminology over here, but as far as we are concerned, if you know D and <i>f</i>',
-这里有很多术语，但是就我们而言，如果您知道 D 和 <i>f</i>'，
+这里有很多术语 但是就我们而言 如果您知道 D 和 <i>f</i>' 
 
 24
 00:02:27,000 --> 00:02:33,000
 that’s good enough for you. So here I’ve got D[<i>f</i>[<i>x</i>]] and <i>f</i>'[<i>x</i>], and you get back
-就足够了。 所以在这里，我有 D [<i>f</i>[<i>x</i>]] 和 <i>f</i>'[<i>x</i>]
+就足够了 所以在这里 有 D [<i>f</i>[<i>x</i>]] 和 <i>f</i>'[<i>x</i>]
 
 25
 00:02:33,000 --> 00:02:40,000
 just the same result in both the cases. For this lesson, if you know D and <i>f</i>',
-在两种情况下返回相同的结果。在本课程中，如果您知道 D 和 <i>f</i>'，
+在两种情况下得到相同的结果 在本课程中 如果那知道 D 和 <i>f</i>' 
 
 26
 00:02:40,000 --> 00:02:44,000
 that’s enough to do all the calculations.
-足以进行所有计算。
+足以进行所有计算
 
 27
 00:02:44,000 --> 00:02:50,000
 Okay. One issue with derivatives is that they are defined by limits. If they are limits,
-好的。 导数的一个问题是它们是由极限定义的。 如果是极限，
+好 导数的一个问题是他们是由极限定义的 如果是极限 
 
 28
 00:02:50,000 --> 00:02:54,000
 and because you can talk about left-hand and right-hand limits, you can also talk about
-并且因为您可以谈论左侧和右侧极限，所以您也可以谈论
+并且因为可以谈论左侧和右侧极限 所以也可以谈论
 
 29
 00:02:54,000 --> 00:02:59,000
 left-hand and right-hand derivatives at a point. Here’s a function <i>g</i>
-一个点的左导数和右导数。 这是一个函数 <i>g</i>
+一个点的左导数和右导数 这是一个函数 <i>g</i>
 
 30
 00:02:59,000 --> 00:03:05,000
 defined using the RealAbs function, the absolute value function, and clearly there will be
-使用 RealAbs 函数定义的绝对值函数，显然在 5 处符号会发生变化。
+使用 RealAbs 函数定义的绝对值函数 显然在 5 这个地方符号会发生变化 
 
 31
 00:03:05,000 --> 00:03:12,000
 an issue at 5 where the sign changes. If you find the derivatives from the right and left at 5,
-如果您在 5 处从左侧和右侧求导数，
+如果你分别在 5 左侧和右侧求导数 
 
 32
 00:03:12,000 --> 00:03:17,000
 then what you see is that they are different, so you have a problem
-那么你会看到它们是不同的，所以这里有一个问题
+那么你会看到它们是不同的 所以这里有一个问题
 
 33
 00:03:17,000 --> 00:03:23,000
 because the left-hand and right-hand derivatives at the point 5 do not agree.
-因为在点 5 的左导数和右导数不一致。
+因为在点 5 的左导数和右导数不一致 
 
 34
 00:03:23,000 --> 00:03:29,000
 If you plot the function derivative, you see a little more clearly. That’s the original function,
-如果您绘制函数导数，您会更加清楚地看到。
+如果画出函数的导数 会很清楚地看到
 
 35
 00:03:29,000 --> 00:03:38,000
 and the derivative is 3 on the right and −3 on the left. That’s one way in which things can go wrong,
-那是原始函数，导数在右侧是 3，在左侧是 -3。这是会出问题的一种情况，
+那是原来的函数 导数在右侧是 3 在左侧是 -3 这是会出问题的一种情况 
 
 36
 00:03:38,000 --> 00:03:42,000
 namely that the left-hand limit and the right-hand limit do not agree,
-即左极限和右极限不一致，
+即左极限和右极限不一致 
 
 37
 00:03:42,000 --> 00:03:45,000
 and you do not have a derivative at that point.
-所以在那一点没有导数。
+所以在那一点没有导数 
 
 38
 00:03:45,000 --> 00:03:56,000
 Let’s talk about differentiability. A function is differentiable if <i>f</i>'[<i>a</i>] exists for a point <i>a</i>,
-让我们谈谈函数的可导性。如果在点 <i>a</i> 上存在 <i>f</i>'[<i>a</i>]
+让我们谈谈函数的可导性 如果在点 <i>a</i> 上存在 <i>f</i>'[<i>a</i>] 那么函数是在这一点是可导的 
 
 39
 00:03:56,000 --> 00:04:01,000
-and of course if you were to have a whole range of values from <i>a</i> to <i>b</i>, then it’s differentiable
-那么函数是在这一点是可导的，当然，如果在整个区间的所有点从 <i>a</i> 到 <i>b</i>，都是可导的
+and of course if you were to have a whole range of values from <i>a</i> to <i>b</i>, then it’s differentiable当当然 如果在整个区间从 <i>a</i> 到 <i>b</i> 的所有点都是可导的
 
 40
 00:04:01,000 --> 00:04:09,000
 if it’s differentiable at every point, every number in that interval. Here’s a function.
-那么函数在该区间可导。这是一个函数。
+那么函数在该区间可导 这是一个函数 
 
 41
 00:04:09,000 --> 00:04:16,000
 Let’s find the derivative. The question is where is it differentiable? Well, the only difficulty
-让我们求导数。问题是它在哪里是可导的？
+让我们求导数 问题是他在哪里是可导的？好吧，唯一的困难就是
 
 42
 00:04:16,000 --> 00:04:20,000
 would be at 0 because then you have a 0 in the denominator over here, and in fact,
-好吧，唯一的困难就是 0 点，因为那边的分母为0，实际上，
+在 0 这个点 因为这里的分母为 0 实际上 
 
 43
 00:04:20,000 --> 00:04:27,000
 if you work out the left- and right-hand derivatives at this point at 0, then you do see
-如果您在此时计算左导数和右导数为0，那么您会看到
+如果你计算在 0 处的左导数和右导数 那么你会看到
 
 44
 00:04:27,000 --> 00:04:35,000
 that they are very different. In fact if you plug in 0 into <i>f</i>'[<i>x</i>], you get back an indeterminate answer.
-他们是非常不同的。 实际上，如果将 0 代入 <i>f</i>'[<i>x</i>]，您将得到一个不确定的答案。
+他们是非常不同的 实际上 如果将 0 代入 <i>f</i>'[<i>x</i>] 你将得到一个不确定的答案 
 
 45
 00:04:35,000 --> 00:04:43,000
 Here’s a function which we just showed you which is differentiable everywhere except at 0.
-这是我们刚刚向您展示的函数，除了 0 以外，该函数在其他地方都是可导的。
+这是我们刚刚展示的函数 除了 0 以外 该函数在其他地方都是可导的 
 
 46
 00:04:44,000 --> 00:04:52,000
@@ -231,42 +230,42 @@ The question arises in what way can a function be non-differentiable? When can t
 47
 00:04:52,000 --> 00:04:58,000
 One way that they can go wrong is if you’re at a corner. Here’s an example.
-他们可能会出错的一种情况是在函数的拐角处。 这是一个例子。
+他们可能会出错的一种情况是在函数的拐角处 这是一个例子 
 
 48
 00:04:58,000 --> 00:05:06,000
 You have the absolute value function times 3, and if you plot it with the derivative, you see that at 0
-您将绝对值函数乘以3，如果画出导函数，则会看到在 0 点
+你将绝对值函数乘以3 如果画出导函数 则会看到在 0 点
 
 49
 00:05:06,000 --> 00:05:11,000
 the calculation and graph both show that you have a problem at 0. You have a corner over there
-计算和图像均表明有问题。您在那儿有一个角，这导致函数不可导。
+计算和图像均表明有问题 你在那儿有一个角 
 
 50
 00:05:11,000 --> 00:05:16,000
 which leads to the differentiability being lost. Here’s a corner for the function,
-函数上的角
+这导致函数不可导 函数上的角
 
 51
 00:05:16,000 --> 00:05:23,000
 and that’s an issue for differentiability. Another thing that can go wrong is that you are at a cusp.
-会导致函数的不可谓。可能出错的另一种情况是您处于尖峰处。
+会导致函数的不可导 可能出错的另一种情况是你处于尖角处 
 
 52
 00:05:23,000 --> 00:05:29,000
 Here’s a cube root function, and at 0 again the problem is because you actually have a cusp.
-这是一个立方根函数，在 0 点再次出现问题，因为您实际上有一个尖峰。
+这是一个立方根函数 在 0 点再次出现问题 因为实际上有一个尖角
 
 53
 00:05:29,000 --> 00:05:34,000
 That’s a cusp over there, a change in shape, and that’s going to cause you problems with derivatives.
-那是个尖峰，形状发生剧变，这会给求导带来问题。
+这是个尖角 形状发生剧变 这会给求导带来问题
 
 54
 00:05:34,000 --> 00:05:38,000
 You can see the derivative does not exist at 0.
-您可以看到导数不存在 0 点。
+可以看到在 0 点不存在导数
 
 55
 00:05:39,000 --> 00:05:44,000
@@ -506,6 +505,5 @@ and that should put you in good shape for Lesson 9. But I’ll stop over here fo
 102
 00:10:45,000 --> 00:10:48,000
 I hope you have enjoyed it. Thank you.
-希望您喜欢。 谢谢。
+上课愉快 再见 (翻译: 秦晋 北京师范大学 校对: 周怀尚 兰州大学)
 
-(翻译: 秦晋 北京师范大学)
