@@ -1,7 +1,7 @@
 1
 00:00:00,000 --> 00:00:06,000
 Hello, and welcome to Lesson 30 of this introduction to calculus with Wolfram U.
-大家好，这里是 Wolfram U的微积分入门，第30课
+大家好 这里是 Wolfram U的微积分入门 第30课
 
 2
 00:00:06,000 --> 00:00:12,000
@@ -21,7 +21,7 @@ In the previous lesson, we learned about the disk and washer methods
 5
 00:00:21,000 --> 00:00:24,000
 for finding the volumes of solids.
-来计算固体体积
+来计算立体体积
 
 6
 00:00:24,000 --> 00:00:25,000
@@ -37,6 +37,7 @@ let’s say you have the function <i>f</i>[<i>x</i>] = <i>x</i>^2
 00:00:29,000 --> 00:00:34,000
 and you rotate that around the <i>x</i> axis from 1 to 4.
 绕 <i>x</i> 轴旋转后在 1 到 4 之间
+
 9
 00:00:34,000 --> 00:00:36,000
 You get a solid of this type.
@@ -55,7 +56,7 @@ and each disk then has a radius of <i>x</i>^2, the value of <i>f</i>[<i>x</i>],
 12
 00:00:49,000 --> 00:00:57,000
 so the area of this disk is π<i>r</i>^2 times, of course, the height,
-所以这个圆盘的面积 π<i>r</i>^2 乘这个 高
+所以这个圆盘的面积是 π<i>r</i>^2 乘这个 高
 
 13
 00:00:57,000 --> 00:01:00,000
@@ -65,7 +66,7 @@ which is the infinitesimal volume.
 14
 00:01:00,000 --> 00:01:06,000
 Then you get the integral of that giving you the volume of the solid.
-然后积分算出来这个固体的体积
+然后积分算出来这个立体的体积
 
 15
 00:01:06,000 --> 00:01:10,000
@@ -75,7 +76,7 @@ The washer method is very simple and similar
 16
 00:01:10,000 --> 00:01:13,000
 because all you do is instead of working with one disk,
-因为你要做的就是不是只用一个圆盘而是
+因为你要做的不是只用一个圆盘而是
 
 17
 00:01:13,000 --> 00:01:18,000
@@ -85,7 +86,7 @@ you simply subtract the volume of two disks, the outer and inner.
 18
 00:01:18,000 --> 00:01:22,000
 Basically it works on washers or rings or annuli
-基本上 他适用于 垫圈 环 或着 奥利奥
+基本上 他适用于 垫圈 环 或着 轮
 
 19
 00:01:22,000 --> 00:01:24,000
@@ -150,7 +151,7 @@ are now going to be shells rather than cross sections.
 31
 00:02:01,000 --> 00:02:05,000
 Because each cell looks like a cylinder,
-因为每个微元都像一个圆桶
+因为每个微元都像一个圆筒
 
 32
 00:02:05,000 --> 00:02:08,000
@@ -160,7 +161,7 @@ it’s called the cylindrical shell method.
 33
 00:02:08,000 --> 00:02:10,000
 Here’s a typical cylinder.
-这里有一个圆桶
+这里有一个圆筒
 
 34
 00:02:10,000 --> 00:02:11,000
@@ -186,6 +187,7 @@ which will give you the volume of that thin shell.
 00:02:25,000 --> 00:02:27,000
 If you factor it a little bit, you could rewrite it as
 如果稍微考虑一下 可以将其重写为
+
 39
 00:02:27,000 --> 00:02:31,000
 2π<i>h</i> times the average of <i>r</i>1 and <i>r</i>2
@@ -264,7 +266,7 @@ You want to work out the volume, so you simply do 2π<i>r</i>
 54
 00:03:29,000 --> 00:03:33,000
 times the value of the function over here times <i>dr</i>.
-乘 这里的函数值 乘 <i>dr</i>
+乘 这里的函数值 再乘 <i>dr</i>
 
 55
 00:03:33,000 --> 00:03:37,000
@@ -294,7 +296,7 @@ Let’s say here’s an example in which you have two curves,
 60
 00:03:55,000 --> 00:04:00,000
 With the washer method, you could rewrite things
-由垫圈法 可以改写这件事
+用垫圈法 可以改写被积函数
 
 61
 00:04:00,000 --> 00:04:05,000
@@ -389,7 +391,7 @@ On the other hand, if you have a negative axis,
 79
 00:05:09,000 --> 00:05:13,000
 so let’s say you have <i>x</i> = –1 over here, and you have this function.
-来看这里 <i>x</i> = –1 有这些函数
+在这有 <i>x</i> = –1 以及这个函数
 
 80
 00:05:13,000 --> 00:05:19,000
@@ -409,7 +411,7 @@ You have 2π(<i>x</i> + 1)<i>f</i>[<i>x</i>]<i>dx</i>.
 83
 00:05:25,000 --> 00:05:30,000
 You work out the answer, and you get back the volume in this case.
-算出答案 得到了这个时候的体积
+算出答案 得到了这种情况下的体积
 
 84
 00:05:33,000 --> 00:05:37,000
@@ -429,12 +431,13 @@ Let’s take an example
 87
 00:05:40,000 --> 00:05:44,000
 where the disk or washer method works a little better.
-圆盘或垫圈方法效果更好一点
+在这个例子中圆盘或垫圈方法效果更好一点
 
 88
 00:05:44,000 --> 00:05:47,000
 Let’s say you have <i>f</i>[<i>x</i>] = CubeRoot[<i>x</i>].
 假设 <i>f</i>[<i>x</i>] = CubeRoot[<i>x</i>]
+
 89
 00:05:47,000 --> 00:05:50,000
 You now revolve around the <i>x</i> axis from 0 to 1.
@@ -478,7 +481,7 @@ because you simply have the cube root of <i>x</i> as the function,
 97
 00:06:23,000 --> 00:06:28,000
 so you apply π times <i>r</i>^2<i>dx</i>, integrate from 0 to 1
-所以你因该用 π 乘 <i>r</i>^2<i>dx</i> 再从 0 到 1 积分
+所以你用 π 乘 <i>r</i>^2<i>dx</i> 再从 0 到 1 积分
 
 98
 00:06:28,000 --> 00:06:31,000
@@ -538,17 +541,17 @@ is the value of the function.
 109
 00:07:15,000 --> 00:07:20,000
 Sometimes you’ll find that the cylindrical shell method
-有时会发现圆柱壳法
+有时会发现柱壳法
 
 110
 00:07:20,000 --> 00:07:23,000
 is much easier, and it can be very cumbersome or even impossible
-更容易 而且可能非常麻烦甚至不可能
+更容易 而且情况可能非常麻烦甚至不可能
 
 111
 00:07:23,000 --> 00:07:26,000
 to apply the disk/washer method.
-应用圆盘/垫圈法
+当使用圆盘/垫圈法
 
 112
 00:07:26,000 --> 00:07:30,000
@@ -578,7 +581,7 @@ where <i>x</i>0 is positive, then you get <i>x</i>0 – <i>x</i> as the radius,
 117
 00:07:48,000 --> 00:07:52,000
 so think back to the example involving 6 – <i>x</i>.
-请回想一下涉及  6 – <i>x</i> 的示例
+请回想一下涉及  6 – <i>x</i> 的例子
 
 118
 00:07:52,000 --> 00:07:58,000
@@ -593,7 +596,7 @@ then you’ll have <i>x</i> – <i>x</i>0 over here, so think back to the exampl
 120
 00:08:03,000 --> 00:08:08,000
 which had an <i>x</i> + 1, which really was an <i>x</i> minus –1.
-有 <i>x</i> + 1 的那个 实际上就是 <i>x</i> 减 –1
+即有 <i>x</i> + 1 的那个例子 实际上就是 <i>x</i> 减 –1
 
 121
 00:08:08,000 --> 00:08:13,000
@@ -623,7 +626,7 @@ the average value of a function with integration,
 126
 00:08:25,000 --> 00:08:28,000
 but before doing that, do review today’s lesson.
-在此之前 请复习今天的课程
+在此之前 请务必复习今天的课程
 
 127
 00:08:28,000 --> 00:08:29,000
@@ -633,7 +636,7 @@ It’s a very important lesson.
 128
 00:08:29,000 --> 00:08:34,000
 It tells you how to find the volumes of very difficult-looking solids,
-它告诉你如何计算看起来非常困难的固体的体积
+它告诉你如何计算看起来非常困难的立体的体积
 
 129
 00:08:34,000 --> 00:08:37,000
@@ -643,6 +646,4 @@ and it really shows you how powerful calculus is.
 130
 00:08:37,000 --> 00:08:39,000
 I’ll stop over here. Thank you very much.
-本节课到此为止，再见
-翻译：兰州大学 周怀尚
-
+本节课到此为止，再见 (翻译：周怀尚 兰州大学 校对: 秦晋 北京师范大学)

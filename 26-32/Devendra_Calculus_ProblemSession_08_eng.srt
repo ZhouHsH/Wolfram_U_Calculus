@@ -31,7 +31,7 @@ which says compute the area between the curves <i>f</i> and <i>g</i>
 7
 00:00:25,000 --> 00:00:33,000
 given by <i>x</i>^2 – 2 and <i>x</i>^3 + <i>x</i> + 7 between the limits –1 and 3 for <i>x</i>.
-函数关于 <i>x</i> 是 <i>x</i>^2 – 2 和 <i>x</i>^3 + <i>x</i> + 7 在 -1 与 3 之间
+函数是 <i>x</i>^2 – 2 和 <i>x</i>^3 + <i>x</i> + 7 积分限是 <i>x</i> 在  -1 与 3 之间
 
 8
 00:00:33,000 --> 00:00:36,000
@@ -96,7 +96,7 @@ Next you plot to get a geometrical picture,
 20
 00:01:17,000 --> 00:01:23,000
 and it’s clear now that the –<i>x</i>^2 – 2 is the one that’s dominating,
-很明显现在 –<i>x</i>^2 – 2 是主要的那个
+很明显现在 –<i>x</i>^2 – 2 是较大的那个
 
 21
 00:01:23,000 --> 00:01:28,000
@@ -106,7 +106,7 @@ so <i>f</i> is greater than <i>g</i>, so you must do <i>f</i> minus <i>g</i> in 
 22
 00:01:28,000 --> 00:01:30,000
 You do that for the given limits,
-按算的积分限做
+按给的积分限计算
 
 23
 00:01:30,000 --> 00:01:33,000
@@ -162,7 +162,7 @@ and here is the answer for the integral.
 00:02:10,000 --> 00:02:14,000
 Problem number 4 is about two functions of <i>y</i>,
 问题 4 是两个关于 <i>y</i> 的函数
- 
+
 34
 00:02:14,000 --> 00:02:17,000
 but again this time you’re not given the points of intersection,
@@ -206,7 +206,7 @@ Number 5. Now we’re on to volumes.
 42
 00:02:44,000 --> 00:02:48,000
 You’re given a solid with hexagonal cross sections,
-这有一个具有六边形横截面的固体
+这有一个具有六边形横截面的立体
 
 43
 00:02:48,000 --> 00:02:52,000
@@ -221,7 +221,7 @@ is given by 6√3<i>x</i>^2.
 45
 00:02:54,000 --> 00:02:58,000
 The question is to find the volume of the solid from 0 to 5.
-问题是这个固体在 0 到 5 之间的体积
+问题是计算这个立体在 0 到 5 之间的体积
 
 46
 00:02:58,000 --> 00:03:02,000
@@ -241,7 +241,7 @@ as the integral from <i>a</i> to <i>b</I> of the area.
 49
 00:03:08,000 --> 00:03:12,000
 In this case, you have 0 to 5 of the area,
-这里 是 0 到 5 之间的面积
+这种情况下有 0 到 5 之间的面积
 
 50
 00:03:12,000 --> 00:03:15,000
@@ -261,12 +261,12 @@ On to number 6, where you’re asked to find the volume
 53
 00:03:25,000 --> 00:03:27,000
 of this rather difficult-looking solid
-这个看起来很难的固体
+这个看起来很难的立体
 
 54
 00:03:27,000 --> 00:03:31,000
 which has a base which is a semicircle.
-他的地面是半圆
+他的底面是半圆
 
 55
 00:03:31,000 --> 00:03:33,000
@@ -276,7 +276,7 @@ You can see it over here.
 56
 00:03:34,000 --> 00:03:38,000
 You want to compute the volume for this solid
-要算这个固体的体积
+要算这个立体的体积
 
 57
 00:03:38,000 --> 00:03:43,000
@@ -301,7 +301,7 @@ Well, the area for an equilateral triangle is <i>x</i>^2(√3/4),
 61
 00:03:53,000 --> 00:04:00,000
 but <i>x</i> in this case is just the semicircle function over here,
-但是 <i>x</i> 在这里是半圆的函数
+但是 <i>x</i> 在这里是半圆函数
 
 62
 00:04:00,000 --> 00:04:03,000
@@ -311,16 +311,17 @@ so the area is (36 – <i>x</i>^2)(√3/4).
 63
 00:04:03,000 --> 00:04:05,000
 Work out the limits, but those are the limits
-算上下限 然后这些是上下限
+计算上下限 但这是
 
 64
 00:04:05,000 --> 00:04:10,000
 where the semicircle cuts the <I>x</i> axis, which are –6 and 6,
-半圆切割了 <I>x</i> 轴 即在 –6 和 6之间
+与半圆相交的 <I>x</i> 轴的范围 即在 –6 和 6 之间
+
 65
 00:04:10,000 --> 00:04:12,000
 so that’s the area to compute.
-这就是要计算的区域
+这就是要计算的积分
 
 66
 00:04:12,000 --> 00:04:15,000
@@ -330,22 +331,22 @@ Work it out and you get the required volume.
 67
 00:04:17,000 --> 00:04:22,000
 Okay. On to number 7, which says compute the volume of the solid
-好 问题 7 计算这个固体的体积
+好 问题 7 计算这个立体的体积
 
 68
 00:04:22,000 --> 00:04:24,000
 which is created when the region bounded by
-创建的区域收到边界限制
+该立体受到的边界限制
 
 69
 00:04:24,000 --> 00:04:29,000
 this function and the <i>x</i> axis is revolved around the <i>x</i> axis.
-由这个函数 并且绕 <i>x</i> 轴旋转
+来自这个函数 并且绕 <i>x</i> 轴旋转
 
 70
 00:04:29,000 --> 00:04:34,000
 That’s the plot of the solid, and the point over here is that
-这是固体的图 重点是
+这是立体的图 重点是
 
 71
 00:04:34,000 --> 00:04:39,000
@@ -365,7 +366,7 @@ the semicircle intersects the <i>x</i> axis.
 74
 00:04:43,000 --> 00:04:48,000
 Now apply the disk method, so you chop the solid up into small disks,
-现在用圆盘法 将固体切为小圆盘
+现在用圆盘法 将立体切为小圆盘
 
 75
 00:04:48,000 --> 00:04:54,000
@@ -375,12 +376,12 @@ and each disk has the √(4 – <i>x</I>^2) as the radius, so it’s π<i>r</i>^
 76
 00:04:54,000 --> 00:04:59,000
 Work out the volume with the disk method, and that’s the answer.
-用圆盘法计算 这就是答案
+用圆盘法计算体积 这就是答案
 
 77
 00:04:59,000 --> 00:05:03,000
 Now of course in this simple case, you have a ball with a radius 2,
-当然 简单的时候 当球半径是 2 的时候
+当然 简单的情况下 当球半径是 2 的时候
 
 78
 00:05:03,000 --> 00:05:07,000
@@ -390,17 +391,17 @@ so its volume is 4(<i>r</i>^3)π/3.
 79
 00:05:07,000 --> 00:05:09,000
 That’s just the same result that we got
-这和我们的结果一样
+这和我们之前的结果一致
 
 80
 00:05:09,000 --> 00:05:12,000
 a little while ago using Integrate.
-前一阵子用 Integrate 算过
+之前用 Integrate 算过
 
 81
 00:05:13,000 --> 00:05:18,000
 On to number 8, which says find the volume of the solid created
-问题 8 求这个固体体积 他是这样构造的
+问题 8 求这个立体体积 他是这样构造的
 
 82
 00:05:18,000 --> 00:05:20,000
@@ -410,7 +411,7 @@ between this function over here
 83
 00:05:20,000 --> 00:05:25,000
 and the <i>x</i> axis-bounded rotate from –π to π.
-绕 <i>x</i> 轴旋转 在 –π 到 π 之间
+ 在 –π 到 π 之间绕 <i>x</i> 轴旋转
 
 84
 00:05:25,000 --> 00:05:28,000
@@ -430,7 +431,7 @@ has got radius (<i>x</i>Sin[<i>x</i>])^2,
 87
 00:05:35,000 --> 00:05:39,000
 so you work out the volume with the disk method in this case.
-所以你可以用圆盘法来计算这个体积
+所以在这种情况下 你用圆盘法来计算这个体积
 
 88
 00:05:41,000 --> 00:05:47,000
@@ -440,7 +441,7 @@ Okay. On to a similar kind of calculation, but now for <i>y</i> functions.
 89
 00:05:47,000 --> 00:05:52,000
 You have a region that’s bounded by 2<i>y</I>^2 on the <i>y</i> axis,
-你在 <i>y</i> 轴上有一个以 2<i>y</I>^2 为边界的有界区域
+你在 <i>y</i> 轴上有一个以 2<i>y</I>^2 为边界的区域
 
 90
 00:05:52,000 --> 00:05:59,000
@@ -450,12 +451,12 @@ and you want to work out the volume of the solid from <i>y</i> = 1 to <i>y</i> =
 91
 00:05:59,000 --> 00:06:02,000
 That’s the picture of the solid.
-这是固体的图像
+这是立体的图像
 
 92
 00:06:02,000 --> 00:06:06,000
 Apply the disk method, but this time the radius is 2<i>y</i>^2.
-由圆盘法 这次的半径是 2<i>y</i>^2
+使用圆盘法 不过这次的半径是 2<i>y</i>^2
 
 93
 00:06:06,000 --> 00:06:09,000
@@ -470,17 +471,17 @@ and you get back the volume.
 95
 00:06:12,000 --> 00:06:17,000
 Okay. On to number 10, which says compute the volume of the solid
-问题 10 计算这个体积
+问题 10 计算体积
 
 96
 00:06:17,000 --> 00:06:21,000
 created when the region bounded by 2<i>x</i> and (<i>x</i>^2)/3
-由这个在 2<i>x</i> 和 (<i>x</i>^2)/3 之间的有界区域生成
+该立体由 以 2<i>x</i> 和 (<i>x</i>^2)/3 为边界 的区域生成
 
 97
 00:06:21,000 --> 00:06:27,000
 from <i>x</I> = 0 to <i>x</i> = 6 is revolved around the <i>x</i> axis.
-从 <i>x</I> = 0 到 <i>x</i> = 6 绕 <i>x</i> 轴旋转
+从 <i>x</I> = 0 到 <i>x</i> = 6 并绕 <i>x</i> 轴旋转
 
 98
 00:06:27,000 --> 00:06:29,000
@@ -495,7 +496,7 @@ When you plot over here, you see you’ve got a region
 100
 00:06:32,000 --> 00:06:34,000
 bounded by two functions,
-被这两个函数包围
+以两个函数为边界
 
 101
 00:06:34,000 --> 00:06:38,000
@@ -525,7 +526,7 @@ You simply apply a difference of the radii square over here,
 106
 00:06:50,000 --> 00:06:53,000
 so you get π times the outer radius squared
-然后得到 π 乘 这个外半径方
+然后得到 π 乘 外半径方
 
 107
 00:06:53,000 --> 00:06:56,000
@@ -540,17 +541,17 @@ with the washer method.
 109
 00:07:00,000 --> 00:07:05,000
 On to number 11, which talks about find the volume created
-问题 11 算这个体积 这样构造的
+问题 11 计算体积 该立体这样构造:
 
 110
 00:07:05,000 --> 00:07:10,000
 when the region bounded by (<i>y</i>^4)/8 and 2<i>y</i>^2 from those two limits
-有界区域被 (<i>y</i>^4)/8 和 2<i>y</i>^2 这两个函数限制
+以 (<i>y</i>^4)/8 和 2<i>y</i>^2 这两个函数为边界 并有这两个上下限
 
 111
 00:07:10,000 --> 00:07:12,000
 is revolved around the <i>y</i> axis.
-绕 <i>y</i> 轴旋转
+并绕 <i>y</i> 轴旋转
 
 112
 00:07:12,000 --> 00:07:13,000
@@ -575,7 +576,7 @@ Apply the washer method, compute the volume
 116
 00:07:21,000 --> 00:07:25,000
 by doing π times the difference of the squares of the radii,
-通过 π 去乘 半径平方的差
+通过 π 去乘 两半径平方的差
 
 117
 00:07:25,000 --> 00:07:29,000
@@ -585,27 +586,27 @@ and that gives the answer for the volume.
 118
 00:07:30,000 --> 00:07:35,000
 Okay. On to number 12, and that’s about computing the volume
-好 问题 12 计算这个体积
+好 问题 12 计算这个立体体积
 
 119
 00:07:35,000 --> 00:07:39,000
 of the solid created when the region bounded by this function
-由这个函数下的区域生成
+该立体以这个函数
 
 120
 00:07:39,000 --> 00:07:42,000
 and the <i>x</i> axis and the lines given over here
-给出 <i>x</i> 轴和这条线
+以及 <i>x</i> 轴和这条线为边界
 
 121
 00:07:42,000 --> 00:07:44,000
 is revolved around the <i>y</i> axis.
-绕 <i>y</i> 轴旋转
+并绕 <i>y</i> 轴旋转
 
 122
 00:07:44,000 --> 00:07:46,000
 Now the point here is the <i>y</i> axis,
-现在这点是 <i>y</i> 轴
+现在的重点是 <i>y</i> 轴
 
 123
 00:07:46,000 --> 00:07:50,000
@@ -615,7 +616,7 @@ so you need to apply the cylindrical shell method.
 124
 00:07:50,000 --> 00:07:53,000
 Okay. That’s the solid over here.
-好 这就是固体
+好 这就是该立体
 
 125
 00:07:53,000 --> 00:07:55,000
@@ -630,7 +631,7 @@ for a cylinder method, you have to have 2π<i>rh</i>
 127
 00:07:59,000 --> 00:08:02,000
 where <i>h</i> is the function definition.
-这里 <i>h</i> 是函数高
+这里 <i>h</i> 是函数值
 
 128
 00:08:02,000 --> 00:08:04,000
@@ -650,17 +651,17 @@ because you are revolving around the <i>y</i> axis, not the <I>x</i> axis.
 131
 00:08:13,000 --> 00:08:17,000
 Number 13 says find the volume of the solid created
-问题 13 算这个体积他是构造出来的
+问题 13 计算构造的立体体积
 
 132
 00:08:17,000 --> 00:08:20,000
 when the region bounded by this, the <i>y</i> axis
-有界区域是这样的 <i>y</i> 轴
+区域以这个函数 <i>y</i> 轴
 
 133
 00:08:20,000 --> 00:08:24,000
 and the two values given over here is revolved around the <i>x</i> axis.
-和这儿给的两个值之间 绕 <i>x</i> 轴旋转
+和这儿给的两个值为边界 并绕 <i>x</i> 轴旋转
 
 134
 00:08:24,000 --> 00:08:30,000
@@ -675,12 +676,12 @@ because you have revolving around the <i>x</i> rather than the <i>y</i> axis.
 136
 00:08:35,000 --> 00:08:43,000
 You do 2π<i>rh</i> where <i>r</i> is <i>y</i> and <i>h</i> is the function expression.
-用 2π<i>rh</i> 这里 <i>r</i> 是 <i>y</i> <i>h</i> 是 函数值
+用 2π<i>rh</i> 这里 <i>r</i> 是 <i>y</i> 而 <i>h</i> 是 函数表达式
 
 137
 00:08:44,000 --> 00:08:47,000
 Apply that and you get back the volume
-用完后 就能算得体积
+应用并算得体积
 
 138
 00:08:47,000 --> 00:08:49,000
@@ -695,12 +696,12 @@ Finally, on to number 14.
 140
 00:08:53,000 --> 00:08:57,000
 That says compute the volume of the solid created
-算这个体积 这样构造的
+算这个立体体积 立体是这样构造的
 
 141
 00:08:57,000 --> 00:09:01,000
 when the region bounded by –<i>x</i>^2 + 2 and the <i>x</i> axis
-区域在 –<i>x</i>^2 + 2 和 <i>x</i> 轴之间
+以 –<i>x</i>^2 + 2 和 <i>x</i> 轴为边界的区域
 
 142
 00:09:01,000 --> 00:09:04,000
@@ -710,7 +711,7 @@ is revolved around the line <i>y</i> = 4.
 143
 00:09:04,000 --> 00:09:06,000
 If you think about it, we’ll apply the disk method,
-如果你思考一下 那么将用圆盘法
+如果你思考一下 那么会采用圆盘法
 
 144
 00:09:06,000 --> 00:09:09,000
@@ -765,5 +766,5 @@ and I’ll see you next time.
 154
 00:09:44,000 --> 00:09:45,000
 Thank you.
-再见
-翻译：兰州大学 周怀尚
+再见(翻译：周怀尚 兰州大学 校对: 秦晋 北京师范大学)
+#更正: 65句 area 原英文应为 integral
