@@ -166,7 +166,7 @@ Now of course there are many more
 34
 00:02:05,000 --> 00:02:08,000
 shapes and solids in the Wolfram Language
-形状和立体定义在 Wolfram 语言中
+形状和几何体定义在 Wolfram 语言中
 
 35
 00:02:08,000 --> 00:02:11,000
@@ -716,4 +716,4 @@ I’ll see you next time.
 144
 00:08:22,000 --> 00:08:25,000
 Thank you very much. I’ll stop over here.
-本节课到此为止，再见 (翻译：周怀尚 兰州大学 校对：秦晋 北京师范大学)
+本节课到此为止 再见 (翻译：周怀尚 兰州大学 校对：秦晋 北京师范大学)
