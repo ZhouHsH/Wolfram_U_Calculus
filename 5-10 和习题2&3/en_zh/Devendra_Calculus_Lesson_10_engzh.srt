@@ -21,7 +21,7 @@ are oscillatory—so they go up and down like waves. You would expect that their
 5
 00:00:26,000 --> 00:00:31,000
 would oscillatory too. Here’s an example that illustrates that.
-也产生振荡 这是一个说明这一点的例子 
+也是振荡的 这是一个说明这一点的例子 
 
 6
 00:00:31,000 --> 00:00:39,000
@@ -41,7 +41,7 @@ and the orange graph is <i>f</i>', and as <i>f</i> changes in an oscillatory way
 9
 00:00:56,000 --> 00:01:03,000
 But of course I haven’t told you how to find the derivative of <i>f</i>, and that’s the goal of today’s lesson.
-但是 我当然没有告诉你如何找到 <i>f</i> 的导数 这是今天课程的目标 
+但是 我当然没有告诉你如何计算 <i>f</i> 的导数 这是今天课程的目标 
 
 10
 00:01:03,000 --> 00:01:10,000
@@ -106,7 +106,7 @@ and you get back Sec^2[<i>x</i>]—so that’s to be remembered, that the deriva
 22
 00:02:36,000 --> 00:02:42,000
 Let’s confirm that with D, and the question is why is there is a square in the answer?
-让我们用 D 确认 问题是为什么答案中有一个平方 
+让我们用 D 确认 问题是为什么答案中有一个平方？
 
 23
 00:02:42,000 --> 00:02:50,000
@@ -131,7 +131,7 @@ Okay. Now we go on to the reciprocals. The secant function has derivative
 27
 00:03:10,000 --> 00:03:21,000
 Sec[<i>x</i>] * Tan[<i>x</i>], and here’s a confirmation with D. Let’s plot them both, and there you are.
-Sec[<i>x</i>] * Tan[<i>x</i>] 这是用 D 的确认 让我们同时绘制它们 就可以了 
+Sec[<i>x</i>] * Tan[<i>x</i>] 这是用 D 进行的确认 让我们同时绘制它们 就可以了 
 
 28
 00:03:23,000 --> 00:03:28,000
@@ -151,7 +151,7 @@ and once again we can plot it to get the function and its derivative.
 31
 00:03:48,000 --> 00:03:58,000
 Finally we got on to the cotangent function. Now its derivative turns out to be −Csc^2[<i>x</i>].
-最后 我们进入了余切函数 现在 它的导数变为 −Csc^2[<i>x</i>] 
+最后 我们来看余切函数 现在 它的导数为 −Csc^2[<i>x</i>] 
 
 32
 00:03:58,000 --> 00:04:06,000
@@ -186,7 +186,7 @@ That says that the derivative of sine is cosine, et cetera, and that small table
 38
 00:04:43,000 --> 00:04:53,000
 for all your future work. Let’s plot them, and you see that you have all the functions
-让我们对其进行绘制 你会看到具有所有函数
+让我们对其进行绘制 你会看到所有函数
 
 39
 00:04:53,000 --> 00:04:59,000
@@ -211,12 +211,12 @@ We know that the trigonometric functions have a cyclical nature. You would expec
 43
 00:05:15,000 --> 00:05:21,000
 there’s some kind of interesting pattern in their derivatives, and indeed that’s what happens.
-你会期望它们的导数中有一种有趣的模式 而事实确实如此 
+你会期望它们的导数中有一种有趣的规律 而事实确实如此 
 
 44
 00:05:21,000 --> 00:05:33,000
 Here is a table of the first four derivatives of sine. You’ve got Sin[<i>x</i>]. Its derivative is Cos[<i>x</i>].
-这是正弦的前四个导数的表 你有 Sin[<i>x</i>] 它的导数是 Cos[<i>x</i>] 
+这是正弦的前四阶导数的表 Sin[<i>x</i>] 它的导数是 Cos[<i>x</i>] 
 
 45
 00:05:33,000 --> 00:05:39,000
@@ -231,7 +231,7 @@ after a cycle of four derivatives, and that says that, for example, if I ask you
 47
 00:05:45,000 --> 00:05:52,000
 what is the 1,001st derivative of the sine function, you will say, oh yes, if we divide by 4
-正弦函数的第 1001 个导数是什么 您会说 是的 如果我们除以 4
+正弦函数的第 1001 个导数是什么 你会说 是的 如果我们除以 4
 
 48
 00:05:52,000 --> 00:06:00,000
@@ -246,7 +246,7 @@ the <i>n</i>th derivative of the sine function. It’s just Sin[<i>x</i> + <i>n<
 50
 00:06:09,000 --> 00:06:16,000
 that gives you the correct answers when you plug in the values of <i>n</i> as 1, 2, 3, 4, et cetera.
-当你将 <i>n</i> 的值代入为 1 2 3 4 等时 可以为你提供正确的答案 
+当你将 <i>n</i> 的值代入为 1 2 3 4 等时 该公式可以为你提供正确的答案 
 
 51
 00:06:16,000 --> 00:06:27,000

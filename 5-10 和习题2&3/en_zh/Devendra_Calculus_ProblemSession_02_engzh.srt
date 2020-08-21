@@ -6,7 +6,7 @@ Hello, and welcome to Problem Session 2 of this introduction to calculus with Wo
 2
 00:00:06,000 --> 00:00:12,000
 Our topic for today is derivatives and continuity. Now being a problem session,
-今天我们的主题是导数和连续性 开始我们的习题课
+今天我们的主题是导数和连续性 现在我们的习题课开始
 
 3
 00:00:12,000 --> 00:00:16,000
@@ -16,7 +16,7 @@ we’ll discuss a few problems, but the point will be to try to show you how to 
 4
 00:00:16,000 --> 00:00:21,000
 real problems in calculus, and also how to review the concepts that you’ve learned earlier
-微积分中的实际问题 以及如何通过查看实际示例来回顾先前学到的概念
+微积分中的实际问题 以及如何通过查看实际例子来回顾先前学到的概念
 
 5
 00:00:21,000 --> 00:00:28,000
@@ -26,7 +26,7 @@ by looking at real examples. Let’s begin with the first problem for today, and
 6
 00:00:28,000 --> 00:00:37,000
 find the limit of <i>x</i> * Sin[<i>x</i>] + Cos[<i>x</i>] as <i>x</i> goes to π. Now keep in mind that <i>x</i> is continuous
-找出当 <i>x</i> 趋近于 π 时 <i>x</i> * Sin[<i>x</i>] + Cos[<i>x</i>] 的极限 因为 现在请记住 <i>x</i>
+计算当 <i>x</i> 趋近于 π 时 <i>x</i> * Sin[<i>x</i>] + Cos[<i>x</i>] 的极限 因为 现在请记住 <i>x</i>
 
 7
 00:00:37,000 --> 00:00:42,000
@@ -41,7 +41,7 @@ and hence what you can do is you can simply plug in the value π into it. If you
 9
 00:00:48,000 --> 00:00:54,000
 then the answer is −1. You expect that the limit is going to be −1, and you can compute the limit
-如果这样做 则答案是 -1 你预计极限将为 -1 并且可以计算极限
+如果这样做 则答案是 -1 你预计极限将为 -1 并且可以使用 Limit 函数计算极限
 
 10
 00:00:54,000 --> 00:01:04,000
@@ -56,7 +56,7 @@ and you see that the value is actually −1 around there.
 12
 00:01:09,000 --> 00:01:18,000
 Okay. Let’s go onto problem 2, which asks you to compute the limit of Sin[<i>x</i>^2 – 3<i>x</i>] as <I>x</i> approaches 3.
-好的 让我们继续问题 2 该问题要求您在 <i>x</i> 接近 3 时计算 Sin[<i>x</i>^2 – 3<i>x</i>] 的极限 
+好的 让我们继续问题 2 该问题要你计算在 <i>x</i> 趋近 3 时 Sin[<i>x</i>^2 – 3<i>x</i>] 的极限 
 
 13
 00:01:18,000 --> 00:01:24,000
@@ -66,12 +66,12 @@ Now the point is that sine is a continuous function, so you can basically take t
 14
 00:01:24,000 --> 00:01:31,000
 inside the bracket over here and work out that simple limit, which is just 9 – 9, so that’s 0.
-获得括号内的极限 并计算出这个简单的极限即 9 – 9 因此为 0
+得到括号内的极限 并计算出这个简单的极限 即 9 – 9 因此为 0
 
 15
 00:01:31,000 --> 00:01:38,000
 You expect the limit is going to be 0 for the entire expression, and you can confirm that with Limit
-预计整个表达式的极限将为 0 并且可以使用 
+你认为整个表达式的极限将为 0 并且可以使用 
 
 16
 00:01:38,000 --> 00:01:45,000
@@ -81,7 +81,7 @@ Limit 函数确认并得到相同的答案 0 这是一个图像 该图像向你�
 17
 00:01:45,000 --> 00:01:51,000
 that indeed the limit is 0 at <i>x</i> = 3.
-确实在 <i>x</i> = 3 时极限为 0
+在 <i>x</i> = 3 时极限确实为 0
 
 18
 00:01:53,000 --> 00:01:59,000
@@ -91,7 +91,7 @@ Okay. Problem 3 asks you to find the limit as <i>x</i> approaches 9 of this func
 19
 00:01:59,000 --> 00:02:05,000
 Now the point is that when <i>x</i> is 9, we have an issue because the denominator becomes 0 at <i>x</i> = 9
-现在的要点是，当 <i>x</i> 为 9 时 我们遇到一个问题 因为在 <i>x</i> = 9
+现在的要点是 当 <i>x</i> 为 9 时 我们遇到一个问题 因为在 <i>x</i> = 9
 
 20
 00:02:05,000 --> 00:02:12,000
@@ -106,17 +106,17 @@ But what you can do is to try and cancel a common factor by first multiplying th
 22
 00:02:19,000 --> 00:02:26,000
 by 3 + √<i>x</i>, and if we do that, you see that we now have the required factor 9 – <i>x</i>,
-3 + √<i>x</i> 以尝试消除公因子 然后 如果这么做 会看到我们现在有所需的公因式 9 – <i>x</i> 
+3 + √<i>x</i> 以尝试消除公因式 然后 如果这么做 会看到我们现在有所需的公因式 9 – <i>x</i> 
 
 23
 00:02:26,000 --> 00:02:33,000
 which cancels with the denominator, and if you do that, you can simplify. Then you get back
-该因数与分母相抵消 如果这样做 您可以化简表达式 你会得到一个
+该公因式与分母相抵消 如果这样做 你可以化简表达式 并得到一个
 
 24
 00:02:33,000 --> 00:02:40,000
 an expression which no longer has any problem with computing limits. If you now plug in <i>x</i> = 9,
-不再对计算极限有任何问题的表达式 如果现在代入 <i>x</i> = 9
+对计算极限不再有任何问题的表达式 如果现在代入 <i>x</i> = 9
 
 25
 00:02:40,000 --> 00:02:47,000
@@ -126,27 +126,27 @@ you would expect to get 54 over here, so the answer is 1/54 for this limit.
 26
 00:02:47,000 --> 00:02:52,000
 That’s a bit difficult because you had to do some work to get to the answer,
-这有点困难 因为您必须做一些工作才能计算答案 
+这有点困难 因为您必须做一些工作才能得到答案 
 
 27
 00:02:52,000 --> 00:02:59,000
 but typically limits of rational functions or rational expressions are a bit more complicated.
-但是通常有理函数或有理表达式的极限要复杂一些 
+但是通常有理函数或有理表达式的极限要更加复杂一些 
 
 28
 00:03:00,000 --> 00:03:08,000
 Problem 4 asks you to show that there is a root of this expression over here between 2 and 3.
-问题 4 要求你证明此表达式的根在 2 到 3 之间 
+问题 4 要证明此表达式的根在 2 到 3 之间 
 
 29
 00:03:08,000 --> 00:03:14,000
 Now that should remind you of the intermediate value theorem, which says that
-现在应该使你想起介定理 介值定理说
+现在应该使你想起介值定理 介值定理说
 
 30
 00:03:14,000 --> 00:03:20,000
 the if sign of the expression is different at the two ends, then you actually have a root in the middle.
-表达式的符号在区间两端点处不同 那么实际上根一定在区间内 
+表达式的符号在区间两端点处不同 那么根一定在区间内 
 
 31
 00:03:20,000 --> 00:03:31,000
@@ -176,7 +176,7 @@ so that agrees with the value given by Solve. Like we said earlier on, the inter
 36
 00:04:00,000 --> 00:04:06,000
 is a very powerful tool for identifying roots of functions.
-是函数求根的非常强大的工具 
+是非常强大的函数求根工具 
 
 37
 00:04:08,000 --> 00:04:16,000
@@ -191,7 +191,7 @@ and clearly the only problem is at 1. Now what you need to do is to fit the valu
 39
 00:04:24,000 --> 00:04:32,000
 so the function becomes continuous at 1. Now at 1, if you work out the function value it’s 3,
-因此该函数在 1 点变为连续 现在在 1 点 如果计算出该函数的值为 3  
+确保该函数在 1 点变为连续 现在在 1 点计算出函数值为 3  
 
 40
 00:04:32,000 --> 00:04:40,000
@@ -201,17 +201,17 @@ and the limit from the right-hand side is also 3 because if you plug in 1 over h
 41
 00:04:40,000 --> 00:04:47,000
 you get back 3, so you need to fit the value of <i>a</i> so that the left-hand limit is 3 as well.
-得到 3 因此你需要拟合 <i>a</i>的值 以使左极限也为 3 
+得到 3 因此你需要拟合 <i>a</i>的值 确保左极限也为 3 
 
 42
 00:04:47,000 --> 00:04:54,000
 You can do that with the Solve function, and get <i>a</i> to be 6. Now once you do that,
-可以使用 Solve 函数来做到这一点 并将 <i>a</i> 设为 6 现在 一旦完成
+可以使用 Solve 函数来做到这一点 并将 <i>a</i> 设为 6 完成这些工作后
 
 43
 00:04:54,000 --> 00:05:01,000
 then the function becomes 6<i>x</i> − 3 instead of 8<i>x</i> − 3 for <i>x</i> less than 1, and if you plot it now,
-在 <i>x</i> 小于 1 时函数为 6<i>x</i> − 3 而不是 8<i>x</i> − 3 如果现在画出它 
+在 <i>x</i> 小于 1 时函数就是 6<i>x</i> − 3 而不是 8<i>x</i> − 3 如果现在画出它 
 
 44
 00:05:01,000 --> 00:05:06,000
@@ -231,7 +231,7 @@ Problem 6 says find the limit of (1/<i>x</i> – 1/3)/(<i>x</i> – 3). Now that
 47
 00:05:27,000 --> 00:05:32,000
 because that’s like a difference quotient. You can work out the answer using D,
-现在这只是一个导数 因为这就像一个差商 可以使用 D 算出答案 
+现在这只是一个导数 因为这类似一个差商 可以使用 D 算出答案 
 
 48
 00:05:32,000 --> 00:05:39,000
@@ -266,17 +266,17 @@ so you can use DifferenceQuotient with the Direction option. You say FromBelow.
 54
 00:06:21,000 --> 00:06:28,000
 You want to go from the left at <i>x</i> = 1, and you get back the answer. Then what you can do is
-左侧趋近 <i>x</i> = 1 然后得到答案 
+即从左侧趋近 <i>x</i> = 1 然后得到答案 
 
 55
 00:06:28,000 --> 00:06:34,000
 you can use that answer, which is just like the slope, to work out the tangent line,
-然后 可以做的就是用这个答案 相当于切线方程的斜率 来计算切线 
+然后 可以做的就是用这个答案－－相当于切线方程的斜率 来计算切线 
 
 56
 00:06:34,000 --> 00:06:39,000
 and you see that indeed you have a tangent line at the required point.
-并且你看到确实在所需点处有一条切线 
+并且你看到确实在所求点处有一条切线 
 
 57
 00:06:41,000 --> 00:06:47,000
@@ -286,12 +286,12 @@ But notice that you have a problem at 1. This is just going to be the left-hand 
 58
 00:06:50,000 --> 00:06:59,000
 Okay. Let’s go on now to find the derivative of this expression at 2. Now because you have
-好 现在继续在 2 点处计算该表达式的导数 现在 由于有
+好 现在继续在 2 点计算该表达式的导数 现在 由于有
 
 59
 00:06:59,000 --> 00:07:04,000
 an absolute value, what you could do is analyze the expression a bit more
-绝对值 因此你可以做的是对表达式进行更多分析
+绝对值 因此你要对表达式进行更多分析
 
 60
 00:07:04,000 --> 00:07:10,000
@@ -326,7 +326,7 @@ of the absolute value function—namely, the tangent line will overlap the graph
 66
 00:07:46,000 --> 00:07:51,000
 Okay. Problem number 9 says compute the values of <i>a</i> and <i>b</i> for which this function
-好 问题 9 表示计算使该函数可导的 <i>a</i> 和 <i>b</i>
+好 问题 9 求使该函数可导的 <i>a</i> 和 <i>b</i>
 
 67
 00:07:51,000 --> 00:07:58,000
@@ -336,7 +336,7 @@ becomes differentiable. Now that’s a much a harder problem because you need to
 68
 00:07:58,000 --> 00:08:03,000
 that you actually have the same left-hand and right-hand derivatives, and you also need to
-确实有相同的左导数和右导数 并且还需要满足
+是否确实有相同的左导数和右导数 并且还需要满足
 
 69
 00:08:03,000 --> 00:08:09,000
@@ -376,7 +376,7 @@ you can then plot everything and check that in fact you have a nice smooth expre
 76
 00:09:01,000 --> 00:09:09,000
 Okay. Let’s go on now to number 10, which says compute the tangent line of this function at 1.
-好 现在继续到第 10 题 计算此函数在 1 处的切线 
+好 现在继续看第 10 题 计算此函数在 1 处的切线 
 
 77
 00:09:09,000 --> 00:09:16,000
@@ -391,7 +391,7 @@ You need to compute the slope at <i>x</i> = 1. You’ve got both those now. Then
 79
 00:09:26,000 --> 00:09:34,000
 is <i>y</i> – <i>y</i>1 equal to slope times (<i>x</i> – <I>x</i>1). That’s the equation of the tangent line,
-方程是 <i>y</i> – <i>y</i>1 等于斜率乘 (<i>x</i> – <I>x</i>1)。这就是切线的方程式 
+方程是 <i>y</i> – <i>y</i>1 等于斜率乘 (<i>x</i> – <I>x</i>1) 这就是切线的方程式 
 
 80
 00:09:34,000 --> 00:09:43,000
@@ -401,7 +401,7 @@ and then you can do that over here to get a plot. You’ve got a plot now which 
 81
 00:09:43,000 --> 00:09:47,000
 that we’ve got the right tangent line in this case.
-在这种情况下 我们有正确的切线 
+在这种情况下 我们得到了正确的切线 
 
 82
 00:09:50,000 --> 00:09:58,000
@@ -426,7 +426,7 @@ so the slope of the normal must be 1/10. Use that information to work out
 86
 00:10:23,000 --> 00:10:32,000
 the equation of the normal over here, and then finally we plot the original function
-此处的法线方程 最后我们绘制原来的函数函数
+此处的法线方程 最后我们绘制原来的函数
 
 87
 00:10:32,000 --> 00:10:40,000
@@ -436,7 +436,7 @@ along with the normal line at 4. You do see that the normal line is perpendicula
 88
 00:10:40,000 --> 00:10:47,000
 the curve at that point, and of course it’s perpendicular to the tangent line at that point.
-该点处的曲线 当然这说的是它垂直于该点的切线 
+该点处的曲线 当然这指的是它垂直于该点的切线 
 
 89
 00:10:49,000 --> 00:10:55,000
@@ -486,7 +486,7 @@ for a function <i>f</i>[<i>x</i>], you want to compute the average rate of chang
 98
 00:11:53,000 --> 00:12:01,000
 over the range 6 to 12. Now the average rate simply means the slope of the secant line
-在 6 到 12 之间的平均变化率 现在 平均变化率就是这两点之间的割线的斜率 
+在 6 到 12 之间的平均变化率 平均变化率就是这两点之间的割线的斜率 
 
 99
 00:12:01,000 --> 00:12:08,000
@@ -506,7 +506,7 @@ Here’s a plot of the points in secant line. Of course secant line is not a ver
 102
 00:12:24,000 --> 00:12:29,000
 but often all that you have is a table of values.
-当然 割线并不是一个很好的近似值 但是通常您所拥有的只是一张值表 
+当然 割线并不是一个很好的近似值 但是通常您所拥有的仅仅是一张值表 
 
 103
 00:12:32,000 --> 00:12:40,000
@@ -521,7 +521,7 @@ with respect to <i>y</i> for this function over here when <i>y</i> is π. Now wh
 105
 00:12:47,000 --> 00:12:54,000
 instantaneous rate of change, what we mean is the derivative. You simply work out D at that point.
-现在 当我们说瞬时变化率时 我们指的是导数 您只需在那点计算出 D 即可 
+现在 当我们说瞬时变化率时 我们指的是导数 您只需在那点计算出 D 的结果即可 
 
 106
 00:12:54,000 --> 00:13:02,000

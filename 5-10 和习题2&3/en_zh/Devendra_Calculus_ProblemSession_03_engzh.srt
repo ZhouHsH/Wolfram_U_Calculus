@@ -11,7 +11,7 @@ The topic for this session is special derivatives, and what we’ll do is to tak
 3
 00:00:15,000 --> 00:00:20,000
 to review the rules for derivatives and also get some extra practice on this topic.
-回顾导数规则 并获得有关此主题的一些额外实践 
+复习导数规则 并获得有关此主题的一些额外实践 
 
 4
 00:00:20,000 --> 00:00:28,000
@@ -66,7 +66,7 @@ times derivative of denominator over denominator squared. When you do that,
 14
 00:01:27,000 --> 00:01:36,000
 you get (<i>x</i>Cos[<i>x</i>] − 2Sin[<i>x</i>])/<i>x</i>^3. You can check the answer with D, and you get back
-你得到 (<i>x</i>Cos[<i>x</i>] − 2Sin[<i>x</i>])/<i>x</i>^3 你可以使用 D 来查看答案 然后得到
+你得到 (<i>x</i>Cos[<i>x</i>] − 2Sin[<i>x</i>])/<i>x</i>^3 你可以使用 D 来检验答案 然后得到
 
 15
 00:01:36,000 --> 00:01:41,000
@@ -126,7 +126,7 @@ Over here apply the chain rule, which says that you have the derivative being
 26
 00:03:10,000 --> 00:03:14,000
 You can check the answer with D, and you get back almost the same thing except that
-可以使用 D 来检查答案 然后除了得到几乎相同的结果外
+可以使用 D 来检查答案 除了得到几乎相同的结果外
 
 27
 00:03:14,000 --> 00:03:24,000
@@ -251,7 +251,7 @@ You apply the chain rule to get the first derivative. That’s going to be Cos[<
 51
 00:06:35,000 --> 00:06:43,000
 That’s from the <i>x</i>^2 over here. Check the answer with D. Apply the chain rule
-那是来自 <i>x</i>^2 的 请在 D 处检查答案 在这里应用链式法则
+那是来自 <i>x</i>^2 的 请用 D 检查答案 在这里应用链式法则
 
 52
 00:06:43,000 --> 00:06:50,000
@@ -266,7 +266,7 @@ and check the answer with D. Then finally you can apply three rules—the chain 
 54
 00:07:01,000 --> 00:07:09,000
 the product rule and the difference rule—to find the third derivative, and confirm the answer with D.
-乘积规则和差规则来查找三阶导数 并用 D 确认答案 
+乘积规则和差规则来计算三阶导数 并用 D 确认答案 
 
 55
 00:07:12,000 --> 00:07:16,000
@@ -361,7 +361,7 @@ You have a <i>y</i>^2 over there, so you get 2<i>y</i> * <i>y</i>' = 6<i>x</i> �
 73
 00:09:54,000 --> 00:10:06,000
 Solve for <i>y</i>'. You get back the answer. Plug in the values 1/2 and 1/2 for <i>x</i> and <i>y</i>, and you get back 2 as
-解出 <i>y</i>' 会得到答案 代入 <i>x</i> 和 <i>y</i> 的值 1/2 和 1/2 您将得到
+解出 <i>y</i>' 得到答案 代入 <i>x</i> 和 <i>y</i> 的值 1/2 和 1/2 您将得到
 
 74
 00:10:06,000 --> 00:10:12,000
@@ -506,7 +506,7 @@ which is about rates of change, but before we do that, do make sure that you und
 102
 00:13:55,000 --> 00:14:01,000
 today’s problem session quite well and do practice a lot before we go on to the next topic.
-今天的习题课 并且在进行下一个主题之前要进行很多练习
+今天的习题课 并且在进行下一个主题之前要进行足够的练习
 
 103
 00:14:01,000 --> 00:14:03,000

@@ -306,17 +306,17 @@ is significantly more complicated than the earlier rules, but in fact it does gi
 62
 00:07:20,000 --> 00:07:27,000
 the correct answer in all cases. We’ve learned the sum rule, the difference rule, the product rule
-在所有情况下的正确答案 
+在所有情况下的正确答案 我们已经学习了求和规则 求差规则 乘积规则
 
 63
 00:07:27,000 --> 00:07:33,000
 and the quotient rule, and in fact that brings us to the end of today’s lesson.
-我们已经学习了求和规则 求差规则 乘积规则和商规则 实际上 这使我们到今天的课程结束 
+和商规则 让我们结束今天的课程 
 
 64
 00:07:34,000 --> 00:07:40,000
 The point is that yes, derivatives are useful, but it is only when you have the rules for differentiation
-关键是 是的 导数是有用的 但是只有当你具有导数规则时 
+关键是 导数是有用的 但是只有当你拥有导数规则时 
 
 65
 00:07:40,000 --> 00:07:45,000
@@ -326,7 +326,7 @@ that you can actually use them effectively in practice, so you do need to know a
 66
 00:07:45,000 --> 00:07:58,000
 There are rules for sums, differences, products and quotients. Of course the simplest rule is the power rule,
-对于和 差 积和商有规则 当然 最简单的规则是幂规则 
+对于和 差 积和商有其规则 当然 最简单的规则是幂规则 
 
 67
 00:07:58,000 --> 00:08:05,000
@@ -356,7 +356,7 @@ you’re ready for the next theme, which is the derivatives of trigonometric fun
 72
 00:08:24,000 --> 00:08:29,000
 I’ll stop over here. I hope you found this lesson really useful. This is where calculus really begins,
-我在这里停下来 我希望您感到本课非常有用 这是微积分真正开始的地方 
+我在这里停下来 我希望您认识到本课非常有用 这是微积分的真正开始
 
 73
 00:08:29,000 --> 00:08:35,000
