@@ -111,7 +111,7 @@ Here’s a function <i>f</i>[<i>x</i>] = 1/<i>x</i>, a very simple function, and
 23
 00:02:23,000 --> 00:02:29,000
 and work out the slope of the secant line between those two points. That’s −2/3.
-并计算出这两点之间的割线斜率 是 −2/3。
+并计算出这两点之间的割线斜率 是 −2/3 
 
 24
 00:02:29,000 --> 00:02:35,000
@@ -181,7 +181,7 @@ If the slope is 3, then the equation is <i>y</i> − <i>y</i>1 equal to slope ti
 37
 00:04:08,000 --> 00:04:17,000
 you surely do get the tangent line to the curve <i>x</i>^3 at this point (1, 1). Just to summarize,
-画图 就可以确定在点（1，1）处与曲线 <i>x</i>^3 的切线 总结一下 
+画图 就可以确定在点（1 1）处与曲线 <i>x</i>^3 的切线 总结一下 
 
 38
 00:04:17,000 --> 00:04:24,000
@@ -241,12 +241,12 @@ Okay. Now a couple of places where you might find this notion. First of all, the
 49
 00:05:29,000 --> 00:05:37,000
 The instantaneous velocity of a position function is given by the slope of a tangent line
-位置函数的瞬时速度由切线的斜率给出。
+位置函数的瞬时速度由切线的斜率给出 
 
 50
 00:05:37,000 --> 00:05:41,000
 to the positional curve. If a particle is changing position and you want to find
-如果粒子正在改变位置，而你想计算
+如果粒子正在改变位置 而你想计算
 
 51
 00:05:41,000 --> 00:05:47,000
@@ -416,7 +416,7 @@ Now sometimes people talk about the average rate of change. Suppose you’ve got
 84
 00:09:31,000 --> 00:09:39,000
 and let’s say <i>x</i> changes from <i>x</i>1 to <i>x</i>2. Naturally <i>y</i> changes from some <i>y</i>1 to <i>y</i>2.
-从 <i>x</i>1 变化到 <i>x</i>2 自然，<i>y</i> 从 <i>y</i>1 变为 <i>y</i>2 
+从 <i>x</i>1 变化到 <i>x</i>2 自然 <i>y</i> 从 <i>y</i>1 变为 <i>y</i>2 
 
 85
 00:09:39,000 --> 00:09:47,000
@@ -471,7 +471,7 @@ That is exactly the slope of the tangent line at that point. In our case,
 95
 00:10:54,000 --> 00:11:02,000
 if we take the limit in the calculation, then you get back the tangent line at the point.
-如果我们在计算中取极限 那么将获得该点的切线。
+如果我们在计算中取极限 那么将获得该点的切线 
 
 96
 00:11:02,000 --> 00:11:07,000

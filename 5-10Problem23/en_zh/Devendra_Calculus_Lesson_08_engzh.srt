@@ -111,7 +111,7 @@ and give you their derivatives. The whole process of calculating derivatives is 
 23
 00:02:22,000 --> 00:02:27,000
 There is a lot of terminology over here, but as far as we are concerned, if you know D and <i>f</i>',
-这里有很多术语 但是就我们而言 如果您知道 D 和 <i>f</i>' 
+这里有很多术语 但是就我们而言 如果你知道 D 和 <i>f</i>' 
 
 24
 00:02:27,000 --> 00:02:33,000
@@ -200,7 +200,7 @@ if it’s differentiable at every point, every number in that interval. Here’s
 41
 00:04:09,000 --> 00:04:16,000
 Let’s find the derivative. The question is where is it differentiable? Well, the only difficulty
-让我们求导数 问题是他在哪里是可导的？好吧，唯一的困难就是
+让我们求导数 问题是他在哪里是可导的？好吧 唯一的困难就是
 
 42
 00:04:16,000 --> 00:04:20,000
@@ -270,237 +270,237 @@ You can see the derivative does not exist at 0.
 55
 00:05:39,000 --> 00:05:44,000
 A third way in which things can go wrong is if you are at a discontinuity of a function.
-出错的第三种情况是如果您处于某个函数的不连续状态。
+出错的第三种情况是如果你处于某个函数的不连续状态 
 
 56
 00:05:44,000 --> 00:05:51,000
 Here’s a function. It’s piecewise, and it changes form at 0. That’s the function.
-这是一个函数。 它是分段的，并且在 0 点变了形式。
+这是一个函数  它是分段的 并且在 0 点变了形式 
 
 57
 00:05:51,000 --> 00:05:59,000
 Work out the derivative, and its 0 is a problem. You get indeterminate. If you plot it,
-计算出导数，在 0 点有问题。导函数值变得不确定。
+计算出导数 在 0 点有问题 导函数值变得不确定 
 
 58
 00:05:59,000 --> 00:06:05,000
 you can see quite clearly that everything’s fine everywhere except at 0.
-如果将其绘制出来，您会清楚地看到，除 0 以外，其他所有地方都很好。
+如果将其绘制出来 你会清楚地看到 除 0 以外 其他所有地方都很好 
 
 59
 00:06:06,000 --> 00:06:15,000
 One last thing that can go wrong is if you are at a vertical tangent. Here’s the cube root function again,
-可能出错的最后一种情况是，如果您处在垂直切线上。
+可能出错的最后一种情况是 如果你处在垂直切线上 
 
 60
 00:06:15,000 --> 00:06:24,000
 and if we look at 0, you actually have a problem because you have a vertical tangent over there.
-再次是立方根函数，如果我们看 0 点，则实际上存在问题，因为那里有垂直切线。
+再次是立方根函数 如果我们看 0 点 则实际上存在问题 因为那里有垂直切线 
 
 61
 00:06:24,000 --> 00:06:30,000
 That’s the way in which things can go wrong, but for the most part, functions will be differentiable,
-这就是出错的所有情况，但是在大多数情况下，函数是可导的，
+这就是出错的所有情况 但是在大多数情况下 函数是可导的 
 
 62
 00:06:30,000 --> 00:06:36,000
 and if they are not, it will only happen at a few isolated points.
-如果函数不可导，则只会在几个孤立的点不可导。
+如果函数不可导 则只会在几个孤立的点不可导 
 
 63
 00:06:37,000 --> 00:06:42,000
 Now starting with a function, you cannot just work out the first derivative like over here,
-现在从一个函数开始，您不仅可以算出一阶导数，
+现在从一个函数开始 你不仅可以算出一阶导数 
 
 64
 00:06:42,000 --> 00:06:50,000
 but you can go a step further and work out the second derivative. The second derivative is
-您可以更进一步，算出二阶导数。二阶导数是
+你可以更进一步 算出二阶导数 二阶导数是
 
 65
 00:06:50,000 --> 00:06:59,000
 the derivative of the first derivative. We with start with 4<i>x</i>^3. You get 12<i>x</i>^2 and then you get 24<i>x</i>,
-一阶导数的导数。 我们从 4<i>x</i>^3 开始。 得到 12<i>x</i>^2，然后得到 24 <i>x</i>, 
+一阶导数的导数  我们从 4<i>x</i>^3 开始  得到 12<i>x</i>^2 然后得到 24 <i>x</i>, 
 
 66
 00:06:59,000 --> 00:07:06,000
 and you can get the same result by using D with this notation, which says differentiate <i>f</i>
-通过使用 D 的编写方式可以得到相同的结果，表示对<i>f</i>
+通过使用 D 的编写方式可以得到相同的结果 表示对<i>f</i>
 
 67
 00:07:06,000 --> 00:07:12,000
 with respect to <i>x</i> two times, and you get back just the same answer. That’s the shorthand
-关于 <i> x </i> 求两次导，您会得到相同的答案。
+关于 <i> x </i> 求两次导 你会得到相同的答案 
 
 68
 00:07:12,000 --> 00:07:23,000
 for computing the second derivative. Here are the plots of all three. There’s <i>f</i>, there’s the first derivative
-这是计算二阶导数的简写。 这是三个函数图像。<i>f</i>, 一阶导数
+这是计算二阶导数的简写  这是三个函数图像 <i>f</i>, 一阶导数
 
 69
 00:07:23,000 --> 00:07:31,000
 and the second derivative. The point is starting from a function, you can work out the derivative.
-和二阶导数 重点是从函数出发，您可以算出导数。
+和二阶导数 重点是从函数出发 你可以算出导数 
 
 70
 00:07:31,000 --> 00:07:37,000
 Then you can work its derivative, and they are all just as good as functions.
-然后，您可以对其进行求导，它们跟函数的性质一样好。
+然后 你可以对其进行求导 它们跟函数的性质一样好 
 
 71
 00:07:37,000 --> 00:07:42,000
 Now of course you can go on with that, and in the Wolfram Language you can work out the <i>n</i>th derivative
-现在，您当然可以继续进行下去了，在 Wolfram 语言中，您可以算出第 <i>n</i> 阶导数
+现在 你当然可以继续进行下去了 在 Wolfram 语言中 你可以算出第 <i>n</i> 阶导数
 
 72
 00:07:42,000 --> 00:07:49,000
 for any value of <i>n</i>, whether it be 1 or 2 or 6 or 100 or whatever. Here’s a simple function <i>x</i>^6.
-<i>n</i> 可以取任何值，无论是 1 还是 2 或 6 还是 100 或其他任何值。 这是一个简单的函数 <i>x</i>^6。
+<i>n</i> 可以取任何值 无论是 1 还是 2 或 6 还是 100 或其他任何值  这是一个简单的函数 <i>x</i>^6 
 
 73
 00:07:49,000 --> 00:07:55,000
 You can work out the first six derivatives. The first expression over here is just the function itself,
-您可以算出前六个导数。
+你可以算出前六个导数 
 
 74
 00:07:55,000 --> 00:07:59,000
 and the last one is 720, which means that you are almost at the edge
-这里的第一个表达式只是函数本身，最后一个表达式是 720，这意味着您已经处于
+这里的第一个表达式只是函数本身 最后一个表达式是 720 这意味着你已经处于
 
 75
 00:07:59,000 --> 00:08:06,000
 where things are going to start becoming 0. Okay. Here’s a plot of the first six derivatives.
-高阶导数为 0 的前一步了。好的。这是前六个导数的图。
+高阶导数为 0 的前一步了 好的 这是前六个导数的图 
 
 76
 00:08:06,000 --> 00:08:11,000
 You have the function over here, first derivative, second derivative, et cetera.
-您在此处具有一阶导数，二阶导数等函数。
+你在此处具有一阶导数 二阶导数等函数 
 
 77
 00:08:11,000 --> 00:08:19,000
 You can see over here that the <i>n</i>th derivative is a function just like the earlier one.
-您可以在这里看到第 <i>n</i> 个导数是一个函数，就像前一个函数一样。
+你可以在这里看到第 <i>n</i> 个导数是一个函数 就像前一个函数一样 
 
 78
 00:08:20,000 --> 00:08:24,000
 Okay. Now in physics, there are some special names for <i>n</i>th derivatives.
-好的。现在，在物理学中，第 n 个导数有一些特殊的名称。
+好的 现在 在物理学中 第 n 个导数有一些特殊的名称 
 
 79
 00:08:24,000 --> 00:08:33,000
 Here’s a position function <i>s</i>[<i>t</i>], and if you work out the first six derivatives, they’ve got names.
-这是位置函数 <i>s</i>[<i>t</i>]，如果您计算出前六个导数，它们就会有名称。
+这是位置函数 <i>s</i>[<i>t</i>] 如果你计算出前六个导数 它们就会有名称 
 
 80
 00:08:33,000 --> 00:08:40,000
 They’re called the velocity, the acceleration, the jerk, snap, crackle, pop.
-它们被称为速度，加速度，急动度，sanp，crackle，pop。
+它们被称为速度 加速度 急动度 sanp crackle pop 
 
 81
 00:08:40,000 --> 00:08:46,000
 That’s first derivative, second derivative, third derivative, fourth, fifth and sixth.
-这是一阶导数，二阶导数，三阶导数，第四，第五和第六阶导数。
+这是一阶导数 二阶导数 三阶导数 第四 第五和第六阶导数 
 
 82
 00:08:46,000 --> 00:08:52,000
 If you plot them, then just like in the earlier case you get back a plot, but now this shows you
-如果对它们进行绘制，则就像在较早的情况下一样，您可以获得图像，
+如果对它们进行绘制 则就像在较早的情况下一样 你可以获得图像 
 
 83
 00:08:52,000 --> 00:08:59,000
 the variation of the position and velocity, et cetera as time goes by.
-但是现在这可以显示位置和速度等随时间的变化。
+但是现在这可以显示位置和速度等随时间的变化 
 
 84
 00:08:59,000 --> 00:09:03,000
 High derivatives are really quite useful. They occur in physics, they occur elsewhere
-高阶导数确实非常有用。它们存在于物理学中，它们也存在于其他地方
+高阶导数确实非常有用 它们存在于物理学中 它们也存在于其他地方
 
 85
 00:09:03,000 --> 00:09:08,000
 and in fact they are what makes calculus so applicable in real life.
-实际上，正是这些因素使微积分在现实生活中如此适用。
+实际上 正是这些因素使微积分在现实生活中如此适用 
 
 86
 00:09:09,000 --> 00:09:13,000
 Okay. Now we’re at the end of today’s lesson, and what you’ve learned is that you can
-好的。现在我们到了本课的最后，您学到的是，不仅可以
+好的 现在我们到了本课的最后 你学到的是 不仅可以
 
 87
 00:09:13,000 --> 00:09:18,000
 work out derivatives not just at points, but for entire functions, and what you get then is
-在各个点上求出导数，而且可以为整个函数求出导函数，然后得到的是
+在各个点上求出导数 而且可以为整个函数求出导函数 然后得到的是
 
 88
 00:09:18,000 --> 00:09:25,000
 a new function. Because a derivative is a limit, you can compute left and right derivatives.
-一个新函数。 由于导数是极限，因此您可以计算左右导数。
+一个新函数  由于导数是极限 因此你可以计算左右导数 
 
 89
 00:09:25,000 --> 00:09:30,000
 Now if it happens that the left and right derivatives are not equal, then the derivative
-现在，如果左右导数不相等，则导数在给定点不存在。
+现在 如果左右导数不相等 则导数在给定点不存在 
 
 90
 00:09:30,000 --> 00:09:40,000
 does not exist at the given point. If it does exist, then the function is differentiable at that point.
-如果确实存在，则该函数在那点是可导的。
+如果确实存在 则该函数在那点是可导的 
 
 91
 00:09:40,000 --> 00:09:45,000
 You’ve got differentiable functions and non-differentiable functions which can occur in many ways,
-您可以得到可导的函数和不可导的函数，不可导函数有多种
+你可以得到可导的函数和不可导的函数 不可导函数有多种
 
 92
 00:09:45,000 --> 00:09:50,000
 like you are at a corner, you are at a cusp, et cetera. As I said earlier on,
-例如在函数拐角处，在尖峰处等等。
+例如在函数拐角处 在尖峰处等等 
 
 93
 00:09:50,000 --> 00:09:58,000
 most functions will be differentiable almost everywhere. Now you can go a step further from derivatives
-正如我之前说的，大多数函数几乎在任何地方都是可导的。现在您可以从导数出发更进一步
+正如我之前说的 大多数函数几乎在任何地方都是可导的 现在你可以从导数出发更进一步
 
 94
 00:09:58,000 --> 00:10:02,000
 and work out higher-order derivatives—the first, second, third, fourth, et cetera—
-并计算出更高阶的导数（第一，第二，第三，第四等）
+并计算出更高阶的导数（第一 第二 第三 第四等）
 
 95
 00:10:02,000 --> 00:10:08,000
 and those are quite useful. For example, they’re useful for studying the motion of a particle.
-这些非常有用。例如，它们对于研究粒子的运动很有用。
+这些非常有用 例如 它们对于研究粒子的运动很有用 
 
 96
 00:10:08,000 --> 00:10:14,000
 That’s a lot of stuff over here. We talked about higher derivatives, left derivatives, right derivatives.
-这里面有很多内容。我们讨论了高阶导数，左导数，右导数。
+这里面有很多内容 我们讨论了高阶导数 左导数 右导数 
 
 97
 00:10:14,000 --> 00:10:21,000
 That’s a whole bag of ideas, and in the next lesson we’ll try and make things look much simpler
-那是一整套想法，在下一课中，我们将讨论寻找导数的规则，使事情看起来更简单。
+那是一整套想法 在下一课中 我们将讨论寻找导数的规则 使事情看起来更简单 
 
 98
 00:10:21,000 --> 00:10:27,000
 by talking about the rules for finding derivatives. It might all look a little bit difficult right now,
-现在可能看起来有点困难，
+现在可能看起来有点困难 
 
 99
 00:10:27,000 --> 00:10:31,000
 but once you have rules of derivatives, then things will become much simpler.
-但是一旦有了导数规则，事情就会变得简单得多。
+但是一旦有了导数规则 事情就会变得简单得多
 
 100
 00:10:31,000 --> 00:10:39,000
 That’s for Lesson 9, but before that we will have Problem Session 2 and you can take a small quiz,
-这是第9课的内容，但在此之前我们将进行第 2 部分的习题，您可以进行一些小测验，
+这是第9课的内容 但在此之前我们将进行第 2 部分的习题 你可以进行一些小测验
 
 101
 00:10:39,000 --> 00:10:45,000
 and that should put you in good shape for Lesson 9. But I’ll stop over here for Lesson 8.
-这应该会使您在第9课时保持良好状态。我将在这里结束第8课。
+这应该会使你在第 9 课时保持良好状态 我将在这里结束第 8 课 
 
 102
 00:10:45,000 --> 00:10:48,000
