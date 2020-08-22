@@ -76,7 +76,7 @@ the value of the function at that point. The equality is a very important condit
 16
 00:01:49,000 --> 00:01:56,000
 Very informally, a continuous function should have no gaps or breaks in its graph.
-不严谨的说 连续函数在其图像里不应该有间隙或中断。
+不严谨的说 连续函数在其图像里不应该有间隙或中断 
 
 17
 00:01:56,000 --> 00:02:01,000
@@ -116,7 +116,7 @@ wherever they are defined. Here’s a polynomial <i>f</i>[<i>x</i>] and a ration
 24
 00:02:39,000 --> 00:02:49,000
 <i>f</i> is of course continuous at every point, but <i>g</i> is continuous everywhere except at −1,
-<i>f</i> 当然在每个点上都是连续的 但是 <i>g</i> 在所有地方都是连续的，除了在 −1 处
+<i>f</i> 当然在每个点上都是连续的 但是 <i>g</i> 在所有地方都是连续的 除了在 −1 处
 
 25
 00:02:49,000 --> 00:02:57,000
@@ -156,7 +156,7 @@ Now what’s happened with <i>g</i> is that we’ve chained the value at 1 hopin
 32
 00:03:40,000 --> 00:03:49,000
 but that’s still not good enough because the limit as you approach 1 is −3, while the value is −2.
-但这仍然不够好 因为当您接近1时，极限是 -3 而函数值是 -2 
+但这仍然不够好 因为当您接近1时 极限是 -3 而函数值是 -2 
 
 33
 00:03:51,000 --> 00:03:57,000
@@ -236,7 +236,7 @@ Let’s see that for the floor function. If you try and find the limit from the 
 48
 00:05:25,000 --> 00:05:30,000
 from above for the floor function at 0, then it’s okay. You get back True.
-设置 Direction 属性为 FromAbove，那么就可以了。你得了到正确结果
+设置 Direction 属性为 FromAbove 那么就可以了 你得了到正确结果
 设置 Direction 属性为 FromAbove 那么就可以了 你得了到正确结果
 
 49
@@ -452,7 +452,7 @@ the theorem for the values between two values. What it says is that
 91
 00:10:08,000 --> 00:10:15,000
 if you have a continuous function <i>f</i> on an interval <i>a</i> to <i>b</i> and you have any number <i>n</i>
-如果在 <i>a</i> 到 <i>b</i> 的区间上具有连续函数 <i>f</i>，并且有任意函数值 <i>n</i>
+如果在 <i>a</i> 到 <i>b</i> 的区间上具有连续函数 <i>f</i> 并且有任意函数值 <i>n</i>
 
 92
 00:10:15,000 --> 00:10:22,000
